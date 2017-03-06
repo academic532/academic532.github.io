@@ -1,0 +1,12 @@
+{
+  "usage": "index file of Slider on homepage",
+  "entry": {
+    "folder": "homeSlider",
+    "pics": [
+        "slide1.jpg",
+        "slide2.jpg",
+        "slide3.jpg",
+        "slide4.jpg"
+    ]
+  }
+}

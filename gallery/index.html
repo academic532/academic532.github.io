@@ -1,0 +1,15 @@
+---
+layout: gallery
+---
+<div class="container">
+  {% for entry in site.data.gallery.entry %}
+    <h3>{{ entry.place }} | {{ entry.date }}</h3>
+    <div class="row lg-item" id="{{ entry.folder }}">
+      {% for pic in entry.pics %}
+          <div class="tb-item col-xs-2" data-src="/media/gallery/{{ entry.folder}}/{{ pic }}">
+            <a href="#" class="thumbnail"><img src="/media/gallery/{{ entry.folder}}/{{ pic }}" /></a>
+          </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>

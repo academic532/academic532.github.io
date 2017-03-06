@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="//cdn.bootcss.com/lightgallery/1.3.9/css/lightgallery.min.css" rel="stylesheet">
+  {% include head.html %}
+</head>
+<body>
+  {% include nav.html %}
+  {{ content }}
+  {% include footer.html %}
+</body>
+<script src="//cdn.bootcss.com/lightgallery/1.3.9/js/lightgallery.min.js"></script>
+<script src="/assets/js/lg-thumbnail.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".lg-item").each(function() {
+        var itemid = $(this).attr("id");
+        $("#"+itemid).lightGallery({
+          thumbnail:true,
+          selector: '.tb-item'
+        }); 
+    });
+  });
+</script>
+{% include scripts.html %}
+<style>
+.thumbnail {
+  height: 100px;
+  overflow: hidden;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.col-xs-2 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+</style>
+</html>

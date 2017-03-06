@@ -1,0 +1,20 @@
+{
+    "variables": {
+        "title": "Lab Wiki"
+    },
+    "links": {
+        "sidebar":{
+            "Academic532":"https://academic532.github.io"
+        },
+        "gitbook":false,
+        "sharing": {
+            "all": false,
+            "vk": false,
+            "facebook": false,
+            "google": false,
+            "twitter": false,
+            "weibo": true
+        }
+    },
+    "plugins": ["yahei","anchors"]
+}

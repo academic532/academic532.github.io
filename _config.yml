@@ -1,0 +1,18 @@
+title: Ning's Group
+description: "An Integrated Scientific Group"
+url: https://ning.sjtu.edu.cn
+
+timezone: Asia/Shanghai
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+exclude: ['.git']

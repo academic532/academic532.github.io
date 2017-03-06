@@ -1,0 +1,20 @@
+{
+    "variables": {
+        "title": "服务器运维指南"
+    },
+    "links": {
+        "sidebar":{
+            "Academic532":"https://ning.sjtu.edu.cn"
+        },
+        "gitbook":false,
+        "sharing": {
+            "all": false,
+            "vk": false,
+            "facebook": false,
+            "google": false,
+            "twitter": false,
+            "weibo": true
+        }
+    },
+    "plugins": ["yahei", "anchors"]
+}

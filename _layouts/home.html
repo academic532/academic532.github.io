@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<link href="//cdn.bootcss.com/lightslider/1.1.6/css/lightslider.min.css" rel="stylesheet">
+{% include head.html %}
+<body>
+    {% include nav.html %}
+    {{ content }}
+    {% include footer.html %}
+</body>
+{% include scripts.html %}
+<script src="//cdn.bootcss.com/lightslider/1.1.6/js/lightslider.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#lightSlider').lightSlider({
+      item: 1,
+      loop:true,
+      slideMargin: 0,
+      gallery: false,
+      pager: false,
+      auto: true
+    });
+  });
+</script>
+<style>
+.ls-item {
+  border: 0;
+  background: none;
+  margin: 0 auto;
+  max-width: 600px;
+}
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+</style>
+</html>

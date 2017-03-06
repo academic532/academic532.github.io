@@ -1,0 +1,29 @@
+body {
+    padding-top: 70px;
+}
+
+.container {
+    margin-top:10px;
+}
+
+.res_thumb {
+    max-height: 150px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.footer-content {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+email-addr::after {
+    content: attr(email-domain);
+}
+
+email-addr::before {
+    content: attr(email-user) "\0040";
+}

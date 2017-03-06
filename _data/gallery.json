@@ -1,0 +1,36 @@
+{
+  "usage": "index file of gallery page",
+  "entry": [
+    {
+      "place": "Shanghai Disneyland",
+      "date": "2016-10-25",
+      "folder": "disney",
+      "pics": [
+        "disney1.JPG",
+        "disney2.JPG",
+        "disney3.JPG",
+        "disney4.JPG",
+        "disney5.JPG",
+        "disney6.jpg",
+        "disney7.JPG",
+        "disney8.JPG",
+        "disney9.JPG",
+        "disney10.JPG"
+      ]
+    },
+    {
+      "place": "Gongqing Forest Park",
+      "date": "2016-03-20",
+      "folder": "gqpark",
+      "pics": [
+        "park1.JPG",
+        "park2.JPG",
+        "park3.JPG",
+        "park4.JPG",
+        "park7.JPG",
+        "park8.JPG",
+        "park9.JPG"
+      ]
+    }
+  ]
+}

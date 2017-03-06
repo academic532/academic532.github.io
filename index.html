@@ -1,0 +1,15 @@
+---
+layout: home
+title: Home
+---
+<div class="container-fluid">
+  <div class="ls-item">
+    <ul id="lightSlider">
+    {% for pic in site.data.homeSlider.entry.pics %}
+      <li data-thumb="/media/{{ site.data.homeSlider.entry.folder}}/{{ pic }}">
+        <img src="/media/{{ site.data.homeSlider.entry.folder}}/{{ pic }}" />
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>

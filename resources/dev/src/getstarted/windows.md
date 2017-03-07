@@ -1,4 +1,4 @@
-## Windows 安装配置 Jekyll
+## Window 环境配置
 
 在 Windows 上比较好的实践是先安装一个 **包管理器(Pakage Manager)**，然后通过包管理器来安装和配置需要的软件，这样软件升级、卸载等都更加方便。Windows 上最流行的包管理器是 [Chocolatey](https://chocolatey.org/)。
 

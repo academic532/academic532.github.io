@@ -1,11 +1,10 @@
 # Summary
 
 - [准备篇](getstarted/README.md)
-    - [下载网站源码](getstarted/source.md)
-    - [Windows 安装配置 Jekyll](getstarted/windows.md)
-    - [OS X 安装配置 Jekyll](getstarted/osx.md)
-    - [Linux 安装配置 Jekyll](getstarted-env/linux.md)
-    - [WSL 安装配置 Jekyll](getstarted/wsl.md)
+    - [Windows 环境配置](getstarted/windows.md)
+    - [OS X 环境配置](getstarted/osx.md)
+    - [Linux 环境配置](getstarted-env/linux.md)
+    - [WSL 环境配置](getstarted/wsl.md)
 - [实战篇](practice/README.md)
     - [源码框架解释](practice/src-arc.md)
     - [版本管理系统](practice/git-vcs.md)

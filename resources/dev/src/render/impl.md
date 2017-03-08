@@ -4,7 +4,7 @@
 
 Data Files 允许在 `/_data` 目录中存储数据文件，供 Jekyll 渲染模版时读取，支持 `*.yml|*.csv|*.json` 等格式。在对应页面使用 Liquid 语法书写模版时可以读取这些文件中存储的数据。
 
-例如 `/gallery/index.html` 文件，对应于 Gallery 页面的源码，只需要 14 行。
+以Gallery页面的模版渲染为例，`/gallery/index.html` 文件，对应于 Gallery 页面的源码，只需要 14 行。
 
 ```html
 ---
@@ -41,5 +41,3 @@ Jekyll 会读取 `gallery.json` 中的索引信息，然后根据模版，动态
   });
 </script>
 ```
-
-首页的Slider使用了完全相同的特性来实现，可阅读 `/index.html` 和 `/_data/homeSlider.json` 文件了解更多细节。

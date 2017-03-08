@@ -1,16 +1,14 @@
 ## OS X 安装配置 Jekyll
 
-OS X 内置有 Ruby，但是版本较低，且由于默认的 Ruby 安装在 `/System` 目录下，对日常的开发、维护都带来许多不便。为了安装较新版本的 Ruby 然后安装 Jekyll，类似于 Windows，首先安装一个好用的包管理器，OS X 平台下的选择是 [homebrew](http://brew.sh/)。
+OS X 系统内置的 Ruby 和 git，但是其版本较低。类似于 Windows，首先安装一个包管理器 [homebrew](http://brew.sh/)，然后进行后续的软件安装。
 
 ### 安装 homebrew
 
-在命令行下，执行以下命令即可完成 homebrew 的安装（安装过程中将提示输入当前用户的密码）：
+启动终端，执行以下命令即可完成 homebrew 的安装（安装过程中将提示输入当前用户的密码）：
 
 ```bash
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 ```
-
-该命令将会从 homebrew 的 GitHub 仓库抓取最新版本并自动完成安装。安装成功后，即可使用 `brew` 命令来安装 Ruby 的最新版本，以及其他工具。
 
 > homebrew 的默认安装目录为 /usr/local，所有通过 `brew` 安装的程序都会默认安装到 `/usr/local/Cellars/程序名/版本号/` 目录下
 
@@ -23,10 +21,9 @@ brew update
 brew install ruby
 ```
 
-说明：
-
-1. `brew update` 将会从 GitHub 上更新 brew 所支持的所有软件的版本信息，保证你能够安装到最新的版本
-2. `brew install ruby` 将会从 Ruby 的 GitHub 仓库抓取最新版本的代码，并编译安装
+> 说明：
+> 1. `brew update` 指令用于更新 brew 仓库内软件的版本信息；
+> 2. `brew install ruby` 用于安装 Ruby。
 
 安装成功后，执行 `ruby --version` 确认已成功安装了 Ruby：
 
@@ -53,15 +50,24 @@ gem install github-pages
 
 ### 测试安装
 
-进入源码目录，输入
+若已阅读了 [Git版本管理](/resources/dev/practice/git.html) 一节，可使用 Git 从 Github 拷贝网站代码到本地。
 
+```bash
+git clone git@github.com:academic532/academic532.github.io labpage
 ```
+
+即可将网页代码下载到`labpage`目录中。
+
+若还没有阅读 Git 操作的相应章节，直接[下载](https://github.com/academic532/academic532.github.io/archive/dev.zip)源码压缩包到本地，然后解压。
+
+```bash
 jekyll serve --port=4001
 ```
 
-提示无错误后，浏览器访问 [http://127.0.0.1:4001/](http://127.0.0.1:4001/) 查看网页。
+出现类似 **Server running...** 的信息，表示 Jekyll 已自动编译了网页源码，并启动了一个本地的 HTTP 服务器。浏览器访问 [http://127.0.0.1:4001/](http://127.0.0.1:4001/) 即可查看运行在本地的http服务器呈现的网页。
 
 ### 参考文档
 
 1. [Mac OS X 上安装 Ruby](https://github.com/ruby-china/homeland/wiki/Mac-OS-X-%E4%B8%8A%E5%AE%89%E8%A3%85-Ruby)
 2. [Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#platform-mac)
+3. [Jekyll Basic Usages](https://jekyllrb.com/docs/usage/)

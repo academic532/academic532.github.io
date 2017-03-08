@@ -1,6 +1,6 @@
 ## 模版风格的页面渲染
 
-为了实现网页内容的可维护性，[guanhao](mailto:guanhwang@outlook.com) 利用了 Jekyll 的 [Data Files](https://jekyllrb.com/docs/datafiles/) 特性配合其模版语法 Hack 了某些页面的动态渲染，记录如下，以供后续开发者参考。
+为了实现网页内容的可维护性，[guanhao](mailto:guanhwang@outlook.com) 利用了 Jekyll 的 [Data Files](https://jekyllrb.com/docs/datafiles/) 特性配合其模版语法 Hack 了某些页面的模版渲染，记录如下，以供后续开发者参考。
 
 ### 特性
 

@@ -4,10 +4,7 @@ WSL 是 Windows 10 的一项新特性，允许实时地在 Windows 上运行一�
 
 ### 开启 WSL
 
-参考：[Installation Guide](https://msdn.microsoft.com/zh-cn/commandline/wsl/install_guide)。
-
-在使用 `sudo` 执行命令式可能出现 `unable to resolve host error` 错误，参考 [Fix unable to resolve host error in Bash on Ubuntu in Windows 10](http://winaero.com/blog/fix-unable-to-resolve-host-error-in-bash-on-ubuntu-in-windows-10/) 解决。
-
+参考 [WSL Installation Guide](https://msdn.microsoft.com/zh-cn/commandline/wsl/install_guide)。在使用 `sudo` 执行命令式可能出现 `unable to resolve host error` 错误，参考 [Fix unable to resolve host error in Bash on Ubuntu in Windows 10](http://winaero.com/blog/fix-unable-to-resolve-host-error-in-bash-on-ubuntu-in-windows-10/) 解决。
 
 ### 安装 Ruby
 
@@ -62,3 +59,6 @@ jekyll serve --watch --force_polling --port=4001
 ```
 
 提示无错误后，浏览器访问 [http://127.0.0.1:4001/](http://127.0.0.1:4001/) 查看网页。
+
+### 参考文档
+1. [WSL Installation Guide](https://msdn.microsoft.com/zh-cn/commandline/wsl/install_guide)

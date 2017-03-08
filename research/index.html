@@ -8,24 +8,20 @@ title: Research
     {{ site.data.research.entry | jsonify }}
   </div>
   <div id="app" class="row">
-    <div class="col-xs-12">
-      <div class="navbar navbar-inverse">
-        <div class="navbar-collapse collapse navbar-inverse-collapse">
-          <ul class="nav navbar-nav">
-            {% raw %}
-              <li v-for="(item, index) in entry"><a href="#" @click="switchDescription(index)">{{ item.name }}</a></li>
-            {% endraw %}
-          </ul>
-        </div>
-      </div>
+    <div class="col-sm-12 col-md-4">
+    <div class="btn-group-vertical">
+     {% raw %}
+       <a v-for="(item, index) in entry" href="#" @click="switchDescription(index)" class="btn btn-raised" :id="'research'+index">{{ item.name }}</a>
+     {% endraw %}
     </div>
-    <div class="col-xs-12">
-      <div class="jumbotron">
-        {% raw %}
-          {{ showText }}
-        {% endraw %}
-      </div>
-    </div> 
+    </div>
+    <div class="col-sm-12 col-md-8">
+    <div class="jumbotron">
+      {% raw %}
+        {{ showText }}
+      {% endraw %}
+    </div>
+    </div>
     <div class="col-md-12">
       {% for group in site.data.projects.entry %}
         <div class="panel panel-default">
@@ -44,6 +40,9 @@ title: Research
 </div>
 
 <script>
+  $(document).ready(function() {
+      $('#research0').addClass('btn-success')
+  });
   var entryidx = JSON.parse($('#jekyllData').text());
   var vm = new Vue({
     el: '#app',
@@ -58,7 +57,9 @@ title: Research
     },
     methods: {
       switchDescription: function (index) {
+        $('#research'+this.currentIdx).removeClass('btn-success')
         this.currentIdx = index 
+        $('#research'+this.currentIdx).addClass('btn-success')
       }
     }
   })

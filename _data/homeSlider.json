@@ -3,10 +3,10 @@
   "entry": {
     "folder": "homeSlider",
     "pics": [
-        "slide1.jpg",
-        "slide2.jpg",
-        "slide3.jpg",
-        "slide4.jpg"
+      "slide1.jpg",
+      "slide2.jpg",
+      "slide3.jpg",
+      "slide4.jpg"
     ]
   }
 }

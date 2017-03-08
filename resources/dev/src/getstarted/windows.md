@@ -26,7 +26,7 @@ cinst ruby -y
 
 下载 [http://curl.haxx.se/ca/cacert.pem](http://curl.haxx.se/ca/cacert.pem) 到 `C:\tools\ruby[xx]`目录，然后 [设置用户变量](http://blog.csdn.net/eric_jjc/article/details/5377684) ，添加 `SSL_CERT_FILE`变量。
 
-![ssl_cert](../pics/ssl_cert.png)
+![ssl_cert](http://wx4.sinaimg.cn/large/9bdff7acly1fdfbpzgpozj20ij05awef.jpg)
 
 注销后配置生效。
 

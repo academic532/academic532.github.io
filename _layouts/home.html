@@ -25,24 +25,29 @@
 .ls-item {
   border: 0;
   background: none;
-  margin: 0 auto;
-  max-width: 600px;
 }
-ul {
+.ls-item ul {
     list-style: none outside none;
     padding-left: 0;
     margin-bottom:0;
 }
-li {
+.ls-item li {
     display: block;
     float: left;
     margin-right: 6px;
     cursor:pointer;
 }
-img {
+.ls-item img {
     display: block;
     height: auto;
     max-width: 100%;
+}
+.panel .list-group .list-group-item {
+  border-width: 1px 0;
+  padding: 10px 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 </style>
 </html>

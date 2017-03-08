@@ -1,0 +1,25 @@
+{
+  "usage": "index of research areas",
+  "entry": [
+    {
+      "name": "Model Predictive Control",
+      "code": "mpc",
+      "description": "Model predictive control is a closed-loop optimal control strategy based on model. The core of the algorithm is predictable future dynamic model, online repeated optimization calculation and rolling control effect and model error feedback correction. The model predictive control has the advantages of good control effect and strong robustness, which can effectively overcome the uncertainties, nonlinearity and parallelism of the process, and can conveniently handle the various constraints in the manipulated variables. From the basic principle of model predictive control, there are three kinds of predictive control algorithms: 1) Model predictive control based on nonparametric model; 2) Predictive control algorithm based on ARMA or CARIMA; 3) Rolling time domain control developed by the LQ and LQG algorithm."
+    },
+    {
+      "name": "Data-driven Fault Diagnosis of syetem",
+      "code": "dtfds",
+      "description": "The main tasks of fault diagnosis of system are: fault detection, fault type judgment, fault location and fault recovery.Fault detection is to establish a connection with the system to send detection signals to the next bit machine periodically and determine whether the system failure from the response of data frame.Fault type judgment is to determine the type of system failure by analyzing the causes after the system detects the fault.Fault location,based on the first two, is the diagnosis of specific fault parts of the system and the cause of the failure to prepare for the recovery.Fault recovery is the final and the most important part of the whole fault diagnosis process. It needs to take different measures to recover the system fault according to the fault reason."
+    },
+    {
+      "name": "3D Reconstruction",
+      "code": "recons",
+      "description": "3D scene reconstruction is to build a mathematical model that is suitable for computer representation and processing of 3D objects. It is the basis for processing, manipulating and analyzing its properties in computer environment. It is also the key technology to express virtual reality in the computer.In computer vision,3D reconstruction is the process of reconstructing 3D information from a single view or a multi-view image.Because the information of single view is not complete, the 3D reconstruction needs to use the experience knowledge.The 3D reconstruction of multi-view is relatively easy, the method is to calibrate the camera, that is, to calculate the relationship between the camera's image coordinate system and the world coordinate system, and then use the information in multiple 2D images to reconstruct the 3D information."
+    },
+    {
+      "name": "Soft sensing",
+      "code": "ss",
+      "description": "Soft measurement is to combine automatic control theory and production process knowledge.It selects some variables which are easy to measure and constitute a mathematical relationship to infer or estimate the variables which are difficult to measure or temporarily unable to measure,which replaces the hardware's function by software.Using the soft-sensing technology to achieve the online detection of element content is not only economic and reliable,but also has a rapid dynamic response,which is easy to achieve the control of product quality."
+    }
+  ]
+}

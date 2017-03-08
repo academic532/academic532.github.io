@@ -2,14 +2,38 @@
 layout: home
 title: Home
 ---
-<div class="container-fluid">
-  <div class="ls-item">
-    <ul id="lightSlider">
-    {% for pic in site.data.homeSlider.entry.pics %}
-      <li data-thumb="/media/{{ site.data.homeSlider.entry.folder}}/{{ pic }}">
-        <img src="/media/{{ site.data.homeSlider.entry.folder}}/{{ pic }}" />
-      </li>
-    {% endfor %}
-    </ul>
+<div class="container">
+  <div class="row">
+    <div class="ls-item col-sm-12 col-md-5">
+      <ul id="lightSlider">
+      {% for pic in site.data.homeSlider.entry.pics %}
+        <li data-thumb="/media/{{ site.data.homeSlider.entry.folder}}/{{ pic }}">
+          <img src="/media/{{ site.data.homeSlider.entry.folder}}/{{ pic }}" />
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+    <div class="col-sm-12 col-md-7">
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">Conference Submission Entries</h3>
+        </div>
+        <ul class="list-group">
+          {% for item in site.data.conferences.entry %}
+            <li class="list-group-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">
+          <h3 class="panel-title">Lab News</h3>
+        </div>
+        <ul class="list-group">
+          {% for item in site.data.news.entry %}
+            <li class="list-group-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
   </div>
 </div>

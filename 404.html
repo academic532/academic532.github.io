@@ -1,17 +1,47 @@
 ---
 layout: default
-title: 404
+title: Page Not Found!
 ---
 
 <div class="container" style="text-align:center;">
+  <h1>Oops! Page Not Found</h1>
   <div id="math_env">
     $$
     -\frac{\hbar^2}{2m}\frac{\partial^2 \Psi}{\partial x^2} + V \Psi = 404
     $$
   </div>
-  <h1>Page Not Found</h1>
 </div>
 
 <script>
   $("#math_env").css("font-size","400%");
 </script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+  });
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += 'has-jax';
+    }
+  });
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+<script src="https://cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<script src="//cdn.bootcss.com/vue/2.2.1/vue.js"></script>
+<body>
+    {% include nav.html %}
+    {{ content }}
+    {% include footer.html %}
+</body>
+{% include scripts.html %}
+<style>
+.panel .list-group .list-group-item {
+  border-width: 1px 0;
+  padding: 10px 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.btn {
+  text-align: left;
+  text-transform: none;
+}
+.btn-group {
+  margin-top: 0px;
+}
+.nav-tabs {
+  background: #212121;
+}
+</style>
+</html>

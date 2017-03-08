@@ -1,25 +1,29 @@
 网站部署
-===========
+=======
 
 ## Github Pages 服务
 
-部署网页内容，原始的方法是使用一台连接到 ISP 的主机上的 Web 服务器来托管网页内容，但这样对网页的持续集成开发增加了复杂性。
+部署网页内容，原始的方法是使用一台连接到 ISP 的主机上的 Web 服务器来托管网页内容，该方式存在的问题包括（不止于）：
+* 对网页的持续集成开发增加了复杂性
+* 网页内容分发受限，在教育网外或国外访问网页内容时，速度较慢
 
-[Github Pages](https://pages.github.com/) 提供了静态网站托管服务，选择使用 Github Pages 服务托管实验室网站，因为其可以和 Github 提供的代码托管和 Travis CI 更好地衔接，从而减小更新网站内容的难度，参考 [管理哲学](https://ning.sjtu.edu.cn/resources/dev/basic/git-vcs.html#管理哲学) 一节。另外，这是一种节省服务器成本的方法。
+[Github Pages](https://pages.github.com/) 提供了静态网站托管服务，选择使用 Github Pages 服务托管实验室网站，因为其可以和 Github 提供的代码托管和 Travis CI 更好地衔接，从多方面减小了代码维护和内容维护的成本，参考 [管理哲学](https://ning.sjtu.edu.cn/resources/dev/basic/git-vcs.html#管理哲学) 一节。另外，这是一种节省服务器带宽成本的方法。
 
-Github Pages 需要创建一个名称为 `[name].github.io` 的仓库，其中 `[name]` 为 Github 账户名字。
+Github Pages 需要创建一个名称为 `[name].github.io` 的仓库，其中 `[name]` 为 Github 账户名字。实验室网页托管于 [academic532/academic532.github.io](https://github.com/academic532/academic532.github.io)。
 
 ## 域名申请
 
-[SJTU 二级域名申请指南](http://net.sjtu.edu.cn/wlfw/wlfwlist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1038)
+[SJTU 二级域名申请指南](http://net.sjtu.edu.cn/wlfw/ym.htm)
 
 申请过程备案需要出示可访问的校内 IP 地址上托管的网页，可使用 `jekyll serve` 或 `python3 -m http.server` 先应付学校网络中心的备案审查。申请成功后获得二级域名`[name].sjtu.edu.cn`。
 
+实验室二级域名为 `ning.sjtu.edu.cn`。
+
 ## Nginx 反向代理
 
-本节最关键的一步，即如何将申请得到的二级域名与 Github Pages 服务关联起来。[Nginx](http://nginx.org/) 的反向代理功能是解决此问题较优雅的方案。
+本节最关键的一步，即如何将申请得到的二级域名与 Github Pages 服务关联起来，[Nginx](http://nginx.org/) 的反向代理功能是解决此问题较优雅的方案。
 
-在申请时 IP 对应的主机上使用 Nginx 反向代理，使用 Github Pages 提供的网页内容响应 `[name].sjtu.edu.cn` 的请求，主机 Linux 发行版为 ArchLinux，以本网站域名 `ning.sjtu.edu.cn` 为例，配置过程如下：
+在申请二级域名时填写的 IP地址对应的主机上使用 Nginx 反向代理，使用 Github Pages 提供的网页内容响应 `[name].sjtu.edu.cn` 的请求，主机 Linux 发行版为 ArchLinux，以本网站域名 `ning.sjtu.edu.cn` 为例，配置过程如下：
 
 ### 安装 Nginx
 
@@ -58,7 +62,7 @@ sudo certbot certonly --nginx -w /usr/share/nginx/html/ -d ning.sjtu.edu.cn
 
 按照提示生成证书，证书位于 `/etc/letsencrypt/live/ning.sjtu.edu.cn/`。
 
-注意 Let's Encrypt 的证书有效期为 90 天，注意及时使用 `sudo certbot renew` 自动更新本地证书。
+> 注意 Let's Encrypt 的证书有效期为 90 天，注意及时使用 `sudo certbot renew` 自动更新本地证书。
 
 ### 配置 Nginx
 
@@ -116,6 +120,17 @@ http {
 3. 反向代理到 `https://academic532.github.io`
 
 修改配置文件后使用 `sudo systemctl restart nginx.service` 重新启动后台服务，完成配置。
+
+### Github Pages CNAME
+
+在网站源码目录中添加一个CNAME文件，其内容如下
+
+```bash
+ning.sjtu.edu.cn 
+
+```
+
+以告知 Github Pages 响应反向代理的请求。
 
 ## 参考
 

@@ -1,0 +1,122 @@
+{
+  "usage": "index of lab members",
+  "entry": [
+    {
+      "category": "Professor",
+      "items": [
+        {
+          "name": "Ning Li",
+          "avatar": "lining.png",
+          "misc": {
+            "Title": "Professor",
+            "Research": "Complex System Modeling and Control, Artificial Intelligence and Big Data Analysis",
+            "Office": "SEIEE #2, 525",
+            "TEL": "021-34204581",
+            "Email": "ning_li@sjtu.edu.cn"
+          },
+          "link": "/members/aboutProf.html"
+        }
+      ]
+    },
+    {
+      "category": "Ph.D Students",
+      "items": [
+        {
+          "name": "Na Jiang",
+          "avatar": "jiangna.png",
+          "misc": {
+            "Research": "Machine learning, Fault detection in wind turbine system"
+          }
+        },
+        {
+          "name": "Dewen Li",
+          "avatar": "lidewen.png",
+          "misc": {
+            "Research": "Model Predictive Control"
+          }
+        },
+        {
+          "name": "Zhe Chen",
+          "avatar": "chenzhe.png",
+          "misc": {
+            "Research": "Model Predictive Control"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Master Students",
+      "items": [
+        {
+          "name": "Muhammad Javed",
+          "avatar": "javed.png",
+          "misc": {
+            "Research": "Comfort-driven and energy efficient control of HVAC system"
+          }
+        },
+        {
+          "name": "Xilei Wang",
+          "avatar": "wangxilei.png",
+          "misc": {
+            "Research": "Soft sensing"
+          }
+        },
+        {
+          "name": "Jing Yang",
+          "avatar": "yangjing.png",
+          "misc": {
+            "Research": "Fault dignosis"
+          }
+        },
+        {
+          "name": "Sebastien Kleff",
+          "avatar": "seb.png",
+          "misc": {
+            "Research": "Robotic control and modeling"
+          }
+        },
+        {
+          "name": "Weizhou Shen",
+          "avatar": "shenweizhou.png",
+          "misc": {
+            "Research": "Wind power generation's control"
+          }
+        },
+        {
+          "name": "Jing Zhang",
+          "avatar": "zhangjing.png",
+          "misc": {
+            "Research": "Fault diagnosis"
+          }
+        },
+        {
+          "name": "Jiajie Tan",
+          "avatar": "tanjiajie.png",
+          "misc": {
+            "Research": "Scene Reconstruction and Perception"
+          }
+        }
+      ]
+    },
+    {
+      "category": "Alumni",
+      "items": [
+        {
+          "name": "Huike Li",
+          "avatar": "lihuike.png",
+          "misc": {
+            "Research": "Health assessment of equipment based on data analysis"
+          }
+        },
+        {
+          "name": "Guanhao Wang",
+          "avatar": "wangguanhao.png",
+          "misc": {
+            "Research": "Scene Reconstruction and Perception"
+           },
+           "link": "https://oncemore2020.github.io"
+        }
+      ]
+    }
+  ]
+}

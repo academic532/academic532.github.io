@@ -1,5 +1,6 @@
 ---
 layout: gallery
+title: Gallery
 ---
 <div class="container">
   {% for entry in site.data.gallery.entry %}
@@ -13,3 +14,28 @@ layout: gallery
     </div>
   {% endfor %}
 </div>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".lg-item").each(function() {
+        var itemid = $(this).attr("id");
+        $("#"+itemid).lightGallery({
+          thumbnail:true,
+          selector: '.tb-item'
+        }); 
+    });
+  });
+</script>
+
+<style>
+.thumbnail {
+  height: 100px;
+  overflow: hidden;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.col-xs-2 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+</style>

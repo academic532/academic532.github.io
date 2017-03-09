@@ -1,26 +1,49 @@
 ---
 layout: default
+title: Contact Us
 ---
 
 <div class="container">
   <div class="row">
-
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <div class="thumbnail">
-         <div style="text-align:center;">
-          <h1>Contact us</h1>
-         </div>
-        <hr>
-         <div style="text-align:center;">
-          <p>
-            Address of our lab: Shanghai Jiao Tong University SEIEE 2-532<br/>
-            Telephone of the lab: 021-34204581<br/>
-            Email of lab's manager student Jiang Na: <email-addr email-user="firecy" email-domain="sjtu.edu.cn"></email-addr>
-          </p>
-         </div>
-      </div>
+    <div class="well col-md-12">
+      <p>800 Dongchuan RD. Minhang District, Shanghai, China.</p>
+      <p>Shanghai JiaoTong University, SEIEE Building #2, Lab 532.</p>
+      <p>TEL: 021-34204581</p>
+      <p>Manager: Jiang Na(<email-addr email-user="firecy" email-domain="sjtu.edu.cn"></email-addr>)
     </div>
+    <div class="col-md-12" id="amap"></div>
   </div>
 </div>
 
+<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.3&key=ef6795e316e63b4abe4133d3e5458851"></script>
+<script type="text/javascript">
+  var map = new AMap.Map('amap',{
+    resizeEnable: true,
+    center: [121.44075,31.02536],
+    zoom: 18
+  });
+  var marker = new AMap.Marker({
+    position: [121.44075,31.02536]
+  });
+  marker.setMap(map);
+  var circle = new AMap.Circle({
+    center: [121.44075,31.02536],
+    radius: 30,
+    fillOpacity:0.2,
+    strokeWeight:1
+  })
+  circle.setMap(map);
+</script>
 
+<style>
+#amap {
+  height: 400px;
+}
+email-addr::after {
+  content: attr(email-domain);
+}
+
+email-addr::before {
+  content: attr(email-user) "\0040";
+}
+</style>

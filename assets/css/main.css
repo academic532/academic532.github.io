@@ -13,11 +13,3 @@ body {
 .navbar {
   margin-bottom: 0;
 }
-
-email-addr::after {
-  content: attr(email-domain);
-}
-
-email-addr::before {
-  content: attr(email-user) "\0040";
-}

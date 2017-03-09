@@ -9,45 +9,4 @@
 </body>
 {% include scripts.html %}
 <script src="//cdn.bootcss.com/lightslider/1.1.6/js/lightslider.min.js"></script>
-<script>
-  $(document).ready(function() {
-    $('#lightSlider').lightSlider({
-      item: 1,
-      loop:true,
-      slideMargin: 0,
-      gallery: false,
-      pager: false,
-      auto: true
-    });
-  });
-</script>
-<style>
-.ls-item {
-  border: 0;
-  background: none;
-}
-.ls-item ul {
-    list-style: none outside none;
-    padding-left: 0;
-    margin-bottom:0;
-}
-.ls-item li {
-    display: block;
-    float: left;
-    margin-right: 6px;
-    cursor:pointer;
-}
-.ls-item img {
-    display: block;
-    height: auto;
-    max-width: 100%;
-}
-.panel .list-group .list-group-item {
-  border-width: 1px 0;
-  padding: 10px 15px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-</style>
 </html>

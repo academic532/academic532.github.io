@@ -1,5 +1,5 @@
 ---
-layout: research
+layout: common
 title: Research
 ---
 
@@ -18,7 +18,7 @@ title: Research
     <div class="col-sm-12 col-md-8">
     <div class="jumbotron">
       {% raw %}
-        {{ showText }}
+        {{ showText }}<a v-if="hasLink" :href="showLink">View More</a>
       {% endraw %}
     </div>
     </div>
@@ -52,7 +52,13 @@ title: Research
     },
     computed: {
       showText: function () {
-          return this.entry[this.currentIdx].description
+        return this.entry[this.currentIdx].description
+      },
+      showLink: function () {
+        return this.entry[this.currentIdx].link
+      },
+      hasLink: function () {
+        return Boolean(this.showLink)
       }
     },
     methods: {

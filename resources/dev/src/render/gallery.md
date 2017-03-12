@@ -1,5 +1,7 @@
 ## Gallery 页面维护
 
+Gallery 页面对应的数据文件为 `_data/gallery.md`。
+
 例如实验室去 Shanghai Disneyland 拍摄了一组照片，现将经过筛选的照片放入 `disney` 目录中，拷贝到网站源码的 `/media/gallery` 目录内，目录结构如下：
 
 ```

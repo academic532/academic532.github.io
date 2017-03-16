@@ -65,18 +65,6 @@ Github Pages 服务会根据 `master` 分支的内容在后台自动使用 `gith
 
 每次推送到 `dev` 分支的提交，都会自动触发 [Travis CI](https://travis-ci.org) 持续集成服务的自动编译，若编译没有报错，则会自动地推送到 `master` 分支，从而完成对网站内容的修改。若编译报错，该次修改将不会推送到 `master` 分支。Travis CI 端的配置细节，参考[Travis CI Push 权限配置](https://oncemore2020.github.io/blog/travis-deploy/)，一般网站开发者可以略过该部分。
 
-### 典型操作
-
-一次典型的修改网站代码的操作包括以下步骤：
-
-1. 确保自己在 `dev` 分支上；
-2. 修改网页代码；
-3. 启动终端，在网页代码目录中一次输入：
-    * `git add --all`
-    * `git commit -m"说明文字"`
-    * `git push origin dev`
-4. 到 [Travis](travis-ci.org/academic532/academic532.github.io)观察自动构建状态。
-
 ### 参考文档
 
 1. [持续集成是什么？](http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html)

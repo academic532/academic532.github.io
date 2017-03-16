@@ -29,7 +29,6 @@ title: Gallery
 
 <style>
 .thumbnail {
-  height: 100px;
   overflow: hidden;
   padding: 0;
   margin-bottom: 10px;
@@ -39,3 +38,8 @@ title: Gallery
   padding-right: 5px;
 }
 </style>
+
+<script>
+  var cw = 0.6 * $('.thumbnail').width();
+  $('.thumbnail').css({height: cw+'px'});
+</script>

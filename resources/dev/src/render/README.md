@@ -11,4 +11,6 @@
 
 ### tl;dr
 
-若需更改相关页面的内容，阅读 [首页Slider维护](/resources/dev/render/homeSlider.html) 和 [Gallery页面维护](/resources/dev/render/gallery.md) 即可，需要注意的是，为了修改索引文件，需要对 [json](http://www.json.org/json-zh.html) 有所了解，当然，掌握基本的 git 操作（`add`、`commit`、`push`）也是必要的，若完全不了解相关操作，首先需要阅读 [版本管理系统](/resources/dev/practice/git-vcs.html) 和 [最佳实践](/resources/dev/practice/bp.html) 两节内容。
+若需更改相关页面的内容，阅读相应页面的维护文档即可。当然，为了正确地修改索引文件，需要对 [json](http://www.json.org/json-zh.html) 有所了解，当然，掌握基本的 git 操作（`add`、`commit`、`push`）也是必要的，若完全不了解相关操作，首先需要阅读 [版本管理系统](/resources/dev/practice/git-vcs.html) 和 [最佳实践](/resources/dev/practice/bp.html) 两节内容。
+
+可借助 [JSON Visualizer](https://jsonvisualizer.com/) 工具对 `_data` 文件夹内的每个 `*.json` 文件的结构进行了解。

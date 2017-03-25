@@ -99,7 +99,7 @@
       ]
     },
     {
-      "category": "Alumni",
+      "category": "Recent Alumni",
       "items": [
         {
           "name": "Huike Li",
@@ -115,6 +115,20 @@
             "Research": "Scene Reconstruction and Perception"
            },
            "link": "https://oncemore2020.github.io"
+        },
+        {
+          "name": "Sheng Chen",
+          "avatar": "chensheng.png",
+          "misc": {
+            "Research": "Comfort-driven and energy efficient control of HVAC system"
+                  }
+        },
+        {
+          "name": "Ailing Fei",
+          "avatar": "feiailing.png",
+          "misc": {
+            "Research": "UAV control"
+          }
         }
       ]
     }

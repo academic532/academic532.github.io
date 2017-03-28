@@ -9,16 +9,36 @@ title: Research
   </div>
   <div id="app" class="row">
     <div class="col-sm-12 col-md-4">
-    <div class="btn-group-vertical">
-     {% raw %}
-       <a v-for="(item, index) in entry" href="#" @click="switchDescription(index)" class="btn btn-raised" :id="'research'+index">{{ item.name }}</a>
-     {% endraw %}
-    </div>
+      {% raw %}
+      <div class="panel-group">
+        <div v-for="(item, index) in entry" class="panel" :id="'item'+index">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a v-if="item.children" data-toggle="collapse" :href="'#itemContent'+index" @click="switchDescription(index,0)">{{ item.name }}</a>
+              <a v-if="!item.children" data-toggle="collapse" href="#" @click="switchDescription(index,-1)">{{ item.name }}</a>
+            </h4>
+          </div>
+          <div v-if="item.children" class="panel-collapse collapse" :id="'itemContent'+index">
+            <ul class="list-group">
+              <li v-for="(subItem, subIndex) in item.children" class="list-group-item" :id="'item'+index+'sub'+subIndex">
+                <a @click="switchDescription(index,subIndex)" href="#">{{ subItem.name }}</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% endraw %}
+      <a class="btn btn-info" href="{{ site.data.research.micropage }}">微页: 典型案例</a>
     </div>
     <div class="col-sm-12 col-md-8">
     <div class="jumbotron">
       {% raw %}
-        {{ showText }}<a v-if="hasLink" :href="showLink">View More</a>
+        {{ showText }}<a v-if="showLink" :href="showLink">View More</a>
+        <div class="row" style="margin-top:10px">
+          <div v-for="showImg in showImages" class="col-xs-4">
+            <img class="show-figure" :src="'/media/research/'+showImg"/>
+          </div>
+        </div>
       {% endraw %}
     </div>
     </div>
@@ -41,32 +61,60 @@ title: Research
 
 <script>
   $(document).ready(function() {
-      $('#research0').addClass('btn-success')
+      $('#item0').addClass('panel-success')
   });
   var entryidx = JSON.parse($('#jekyllData').text());
   var vm = new Vue({
     el: '#app',
     data: {
       entry: entryidx,
-      currentIdx: 0
+      currentIdx: 0,
+      showText: '',
+      showLink: '',
+      showImages: []
     },
-    computed: {
-      showText: function () {
-        return this.entry[this.currentIdx].description
-      },
-      showLink: function () {
-        return this.entry[this.currentIdx].link
-      },
-      hasLink: function () {
-        return Boolean(this.showLink)
+    created: function () {
+      if (this.entry[0].children) {
+        this.showText = this.entry[0].children[0].description
+        this.showLink = this.entry[0].children[0].link
+        this.showImages = this.entry[0].children[0].figures
+      } else {
+        this.showText = this.entry[0].description
+        this.showLink = this.entry[0].link
+        this.showImages = this.entry[0].figures
       }
     },
     methods: {
-      switchDescription: function (index) {
-        $('#research'+this.currentIdx).removeClass('btn-success')
+      switchDescription: function (index, subIndex) {
+        $('#item'+this.currentIdx).removeClass('panel-success')
         this.currentIdx = index 
-        $('#research'+this.currentIdx).addClass('btn-success')
+        $('#item'+this.currentIdx).addClass('panel-success')
+        if (subIndex === -1) {
+          this.showText = this.entry[index].description
+          this.showLink = this.entry[index].link
+          this.showImages = this.entry[index].figures
+        } else {
+          this.showText = this.entry[index].children[subIndex].description
+          this.showLink = this.entry[index].children[subIndex].link
+          this.showImages = this.entry[index].children[subIndex].figures
+        }
       }
     }
   })
 </script>
+
+<style>
+a, a:focus, a:hover {
+  text-decoration: none;
+  color: black
+}
+a:focus {
+  color: white;
+}
+.panel-collapse .list-group li {
+  background-color: dodgerblue;
+}
+.show-figure {
+  width: 100%;
+}
+</style>

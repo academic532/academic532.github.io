@@ -99,7 +99,7 @@
       ]
     },
     {
-      "category": "Recent Alumni",
+      "category": "Alumni",
       "items": [
         {
           "name": "Huike Li",
@@ -128,9 +128,83 @@
           "avatar": "feiailing.png",
           "misc": {
             "Research": "UAV control"
-          }
+                  }
+        },
+        {
+          "name": "Yanting Xu",
+          "avatar": "nophoto.png",
+          "misc": {
+            "Research": "Data-driven predictive control"
+                  }
+        },
+        {
+          "name": "Zhanhao Wang",
+          "avatar": "nophoto.png",
+          "misc": {
+            "Research": "Quadruped robot gait planning with stair environment constraints"
+                  }
+        },
+        {
+          "name": "Yifan Luo",
+          "avatar": "nophoto.png",
+          "misc": {
+            "Research": "ANFIS modeling of pmv based on hierarchical fuzzy system"
+                  }
+        },
+        {
+          "name": "Rui Li",
+          "avatar": "nophoto.png",
+          "misc": {
+            "Research": "Robust Model Predictive Controller Design"
+                  }
+        },
+        {
+          "name": "Chao Ma",
+          "avatar": "nophoto.png",
+          "misc": {
+            "Research": "Model Predictive Control"
+                  }
+        },
+        {
+          "name": "Xiangyuan Tao",
+          "avatar": "nophoto.png",
+          "misc": {
+            "Research": "Gap Metric Based Multiple Model Predictive Control with Polyhedral Stability Region"
+                  }
+        },
+        {
+          "name": "Lu Wang",
+          "avatar": "nophoto.png",
+          "misc": {
+            "Research": "Performance Monitoring of the Data-Driven Subspace Predictive Control Systems"
+                  }
+        },
+        {
+          "name": "Guangming Zhang",
+          "avatar": "nophoto.png",
+          "misc": {
+            "Research": "Data-driven Process Monitoring Method Based on Dynamic Component Analysis"
+                  }
+        },
+        {
+          "name": "Qian Li",
+          "avatar": "nophoto.png",
+          "misc": {
+            "Research": "Parabolic Distributed Parameter Systems control"
+                  }
+        },
+        {
+          "name": "Geng Hu",
+          "avatar": "nophoto.png",
+          "misc": {
+            "Research": "Spatial fuzzy modeling of spatial distribution systems"
+                  }
         }
       ]
+    },
+    {
+      "category": "CLGO students",
+      "items": []
     }
   ]
 }

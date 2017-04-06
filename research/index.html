@@ -32,14 +32,16 @@ title: Research
     </div>
     <div class="col-sm-12 col-md-8">
     <div class="jumbotron">
-      {% raw %}
-        {{ showText }}<a v-if="showLink" :href="showLink">View More</a>
-        <div class="row" style="margin-top:10px">
-          <div v-for="showImg in showImages" class="col-xs-4">
-            <img class="show-figure" :src="'/media/research/'+showImg"/>
-          </div>
+    {% raw %}
+      <div v-html="showText">
+      </div>
+      <a v-if="showLink" :href="showLink">View More</a>
+      <div class="row" style="margin-top:10px">
+        <div v-for="showImg in showImages" class="col-xs-4">
+          <img class="show-figure" :src="'/media/research/'+showImg"/>
         </div>
-      {% endraw %}
+      </div>
+    {% endraw %}
     </div>
     </div>
     <div class="col-md-12">
@@ -63,7 +65,7 @@ title: Research
   $(document).ready(function() {
       $('#item0').addClass('panel-success')
   });
-  var entryidx = JSON.parse($('#jekyllData').text());
+  var entryidx = JSON.parse($('#jekyllData').html());
   var vm = new Vue({
     el: '#app',
     data: {
@@ -117,4 +119,8 @@ a:focus {
 .show-figure {
   width: 100%;
 }
+.jumbotron p {
+  font-size: 16px;
+}
+
 </style>

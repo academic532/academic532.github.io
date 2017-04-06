@@ -5,7 +5,7 @@
       "category": "Professor",
       "items": [
         {
-          "name": "Ning Li",
+          "name": "Ning Li（李柠）",
           "avatar": "lining.png",
           "misc": {
             "Title": "Professor",
@@ -22,21 +22,21 @@
       "category": "Ph.D Students",
       "items": [
         {
-          "name": "Na Jiang",
+          "name": "Na Jiang（姜娜）",
           "avatar": "jiangna.png",
           "misc": {
             "Research": "Machine learning, Fault detection in wind turbine system"
           }
         },
         {
-          "name": "Dewen Li",
+          "name": "Dewen Li（黎德文）",
           "avatar": "lidewen.png",
           "misc": {
             "Research": "Model Predictive Control"
           }
         },
         {
-          "name": "Zhe Chen",
+          "name": "Zhe Chen（陈哲）",
           "avatar": "chenzhe.png",
           "misc": {
             "Research": "Model Predictive Control"
@@ -55,14 +55,14 @@
           }
         },
         {
-          "name": "Xilei Wang",
+          "name": "Xilei Wang（王锡磊）",
           "avatar": "wangxilei.png",
           "misc": {
             "Research": "Soft sensing"
           }
         },
         {
-          "name": "Jing Yang",
+          "name": "Jing Yang（杨晶）",
           "avatar": "yangjing.png",
           "misc": {
             "Research": "Fault dignosis"
@@ -76,21 +76,21 @@
           }
         },
         {
-          "name": "Weizhou Shen",
+          "name": "Weizhou Shen（沈惟舟）",
           "avatar": "shenweizhou.png",
           "misc": {
             "Research": "Wind power generation's control"
           }
         },
         {
-          "name": "Jing Zhang",
+          "name": "Jing Zhang（张静）",
           "avatar": "zhangjing.png",
           "misc": {
             "Research": "Fault diagnosis"
           }
         },
         {
-          "name": "Jiajie Tan",
+          "name": "Jiajie Tan（谈加杰）",
           "avatar": "tanjiajie.png",
           "misc": {
             "Research": "Scene Reconstruction and Perception"
@@ -102,14 +102,14 @@
       "category": "Alumni",
       "items": [
         {
-          "name": "Huike Li",
+          "name": "Huike Li（李惠柯）",
           "avatar": "lihuike.png",
           "misc": {
             "Research": "Health assessment of equipment based on data analysis"
           }
         },
         {
-          "name": "Guanhao Wang",
+          "name": "Guanhao Wang（王官皓）",
           "avatar": "wangguanhao.png",
           "misc": {
             "Research": "Scene Reconstruction and Perception"
@@ -117,94 +117,132 @@
            "link": "https://oncemore2020.github.io"
         },
         {
-          "name": "Sheng Chen",
+          "name": "Sheng Chen（陈胜）",
           "avatar": "chensheng.png",
           "misc": {
             "Research": "Comfort-driven and energy efficient control of HVAC system"
                   }
         },
         {
-          "name": "Ailing Fei",
+          "name": "Ailing Fei（费爱玲）",
           "avatar": "feiailing.png",
           "misc": {
             "Research": "UAV control"
                   }
         },
         {
-          "name": "Yanting Xu",
+          "name": "Yanting Xu（徐彦婷）",
           "avatar": "nophoto.png",
           "misc": {
             "Research": "Data-driven predictive control"
                   }
         },
         {
-          "name": "Zhanhao Wang",
+          "name": "Zhanhao Wang（王战浩）",
           "avatar": "nophoto.png",
           "misc": {
             "Research": "Quadruped robot gait planning with stair environment constraints"
                   }
         },
         {
-          "name": "Yifan Luo",
+          "name": "Yifan Luo（罗一凡）",
           "avatar": "nophoto.png",
           "misc": {
             "Research": "ANFIS modeling of pmv based on hierarchical fuzzy system"
                   }
         },
         {
-          "name": "Rui Li",
+          "name": "Rui Li（李瑞）",
           "avatar": "nophoto.png",
           "misc": {
             "Research": "Robust Model Predictive Controller Design"
                   }
         },
         {
-          "name": "Chao Ma",
+          "name": "Chao Ma（马超）",
           "avatar": "nophoto.png",
           "misc": {
             "Research": "Model Predictive Control"
                   }
         },
         {
-          "name": "Xiangyuan Tao",
+          "name": "Xiangyuan Tao（陶响元）",
           "avatar": "nophoto.png",
           "misc": {
             "Research": "Gap Metric Based Multiple Model Predictive Control with Polyhedral Stability Region"
                   }
         },
         {
-          "name": "Lu Wang",
+          "name": "Lu Wang（王陆）",
           "avatar": "nophoto.png",
           "misc": {
             "Research": "Performance Monitoring of the Data-Driven Subspace Predictive Control Systems"
                   }
         },
         {
-          "name": "Guangming Zhang",
+          "name": "Peng Wang（王鹏）",
+          "avatar": "nophoto.png",
+          "misc": {
+            "Research": "Fuzzy control and modeling"
+                  }
+        },
+        {
+          "name": "Guangming Zhang（张光明）",
           "avatar": "nophoto.png",
           "misc": {
             "Research": "Data-driven Process Monitoring Method Based on Dynamic Component Analysis"
                   }
         },
         {
-          "name": "Qian Li",
+          "name": "Meng Chen（陈朦）",
+          "avatar": "nophoto.png",
+          "misc": {
+            "Research": "Fuzzy control and modeling"
+                  }
+        },
+        {
+          "name": "Chen Hua（华晨）",
+          "avatar": "nophoto.png",
+          "misc": {
+            "Research": "Distributed Predictive control"
+                  }
+        },
+        {
+          "name": "Qian Li（李谦）",
           "avatar": "nophoto.png",
           "misc": {
             "Research": "Parabolic Distributed Parameter Systems control"
                   }
         },
         {
-          "name": "Geng Hu",
+          "name": "Geng Hu（胡赓）",
           "avatar": "nophoto.png",
           "misc": {
             "Research": "Spatial fuzzy modeling of spatial distribution systems"
                   }
+        },
+        {
+          "name": "Xuecong Hu（胡学聪）",
+          "avatar": "nophoto.png",
+          "misc": {
+            "Research": "Simulation of Flue Gas Denitrification"
+                  }
+        },
+        {
+          "name": "Qianfang Liao（廖倩芳）",
+          "avatar": "nophoto.png",
+          "misc": {
+            "Research": "Fuzzy control and modeling"
+                  }
+        },
+        {
+          "name": "Chao Feng(冯超）",
+          "avatar": "nophoto.png",
+          "misc": {
+            "Research": "Neural Network algorithm"
+                  }
         }
       ]
-    },
-    {
-      "category": "CLGO students",
-      "items": []
     }
   ]
 }

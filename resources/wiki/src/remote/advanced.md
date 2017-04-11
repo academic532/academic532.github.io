@@ -32,4 +32,8 @@ cat id_rsa.pub >> ~/.ssh/authorized_keys
 rm id_rsa.pub
 ```
 
-then exit the session. Next time you login, the authentication process is automatically done by the public key cryptography.
+then exit the session.
+
+Windows users should also set auth key profiles in putty, check [How do I set up SSH public-key authentication to connect to a remote system?](https://kb.iu.edu/d/aews) for more details.
+
+Next time you login, the authentication process is automatically done by the public key cryptography.

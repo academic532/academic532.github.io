@@ -2,6 +2,10 @@
   "usage": "index file of news",
   "entry": [
     {
+      "name": "Wang Zhanhao won the 2017 SJTU 'President Award' ",
+      "link": "http://automation.sjtu.edu.cn/Show.aspx?info_lb=610&info_id=2505&flag=101"
+    },
+    {
       "name": "The back-to-school forum of Wang Zhanhao",
       "link": "http://automation.sjtu.edu.cn/Show.aspx?info_lb=610&info_id=2451&flag=101"
     },

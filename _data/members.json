@@ -10,7 +10,7 @@
           "misc": {
             "Title": "Professor",
             "Research": "Complex System Modeling and Control, Artificial Intelligence and Big Data Analysis",
-            "Office": "SEIEE #2, 525",
+            "Office": "SEIEE #2-525",
             "TEL": "021-34204581",
             "Email": "ning_li@sjtu.edu.cn"
           },
@@ -240,6 +240,12 @@
           "avatar": "nophoto.png",
           "misc": {
             "Research": "Neural Network algorithm"
+                  }
+        },
+        {
+          "name": "To be continued…",
+          "avatar": "nophoto.png",
+          "misc": {
                   }
         }
       ]

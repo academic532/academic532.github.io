@@ -5,42 +5,64 @@
       "category":"科研奖励",
       "items":[
         "2016年CAA自然科学奖一等奖：网络化大系统的分布式预测控制理论与方法。 李少远，郑毅，李德伟，李柠，席裕庚",
-        "2006年上海市科学技术进步奖（自然科学类）一等奖：约束工业过程的满意优化控制理论及应用。 李少远，王景成，李柠，席裕庚"
+        "Li Shaoyuan, Zheng Yi, Li Dewei, Li Ning, Xi Yugen. Distributed Predictive Control Theory and Method of Networked Systems. CAA Natural Science Award (First Prize), 2016",
+        "2006年上海市科学技术进步奖（自然科学类）一等奖：约束工业过程的满意优化控制理论及应用。 李少远，王景成，李柠，席裕庚",
+        "Li Shaoyuan, Wang Jingcheng, Li Ning, Xi Yugeng. Satisfying Optimal Control Theory and Applications for Constrained Industrial Processes. Science and Technology Progress Award of Shanghai (First Prize), 2006"
       ]
     },
     {
       "category": "国家级课题",
       "items": [
-        "国家自然科学基金重大项目：炼油生产过程全局优化运行的基础理论与关键技术，主研，项目编号：61590920，2016.01-2020.12",
-        "国家自然科学基金重大项目重点项目：炼油生产过程全局优化运行的实验平台与应用验证，本单位负责人，项目编号：61590925，2016.01-2020.12",
+        "国家自然科学基金重大项目：炼油生产过程全局优化运行的基础理论与关键技术，主研，2016.01-2020.12",
+        "Basic Theory and Key Technology of Global Optimization Operation in Refinery Production Process. National Natural Science Foundation (61590920), Member, 2016.01-2020.12",
+        "国家自然科学基金重大项目重点项目：炼油生产过程全局优化运行的实验平台与应用验证，本单位负责人，2016.01-2020.12",
+        "Experimental Platform and Application Verification of Global Optimization Operation in Refinery Production Process. National Natural Science Foundation (61590925), Co-PI, 2016.01-2020.12",
         "863子课题：焊接操作实时运动控制方法及实施现场三维重构与精确定标方法，主研，2015.3-2018.3",
-        "国家自然科学基金面上项目：带有约束的自适应预测控制系统性能极限分析，主持，项目编号：61374109，2014.01-2017.12",
+        "Real-time Motion Control Method of Welding Operation and Implementation of Three - Dimensional Reconstruction and Precise Calibration Method. National 863 Project, Member, 2015.03-2018.03",
+        "国家自然科学基金面上项目：带有约束的自适应预测控制系统性能极限分析，主持，2014.01-2017.12",
+        "Performance Limitation Analysis of Constrained Adaptive Predictive Control System. National Science Foundation of China (61374109), PI, 2014.01-2017.12",
         "973计划子课题：核电站紧急救灾机器人的基础科学问题，主研，2013.01-2017.08",
+        "Basic Scientific Problems of Emergency Relief Robot for Nuclear Power Plant. National 973 Project (2013CB035500), Member, 2013.01-2017.08",
         "国家自然科学基金：数据驱动的预测控制器设计与性能监控，主持，2011.01-2013.12",
+        "Data-driven Predictive Controller Design and Performance Monitoring. National Natural Science Foundation (61074061), PI, 2011.01-2013.12",
         "863计划资助课题：四足仿生机器人动态控制，主研，2011.01-2013.12",
+        "Dynamic Control of Four-leg Bionic Robots. National 863 Project, Member, 2011.01-2013.12",
         "国家自然基金重点：约束模型预测控制的理论和高效算法，主研，2010.01-2013.12",
+        "Theory and Efficient Algorithm of Constrained Model Predictive Control, National Science Foundation of China (60934007), Member, 2010.01-2013.12",
         "国家自然科学基金：分布参数系统融合空间信息的模糊建模与控制，主持，2007.01-2009.12",
-        "863计划资助课题：网络信息模式下的生产全过程整体优化技术与应用，主研，2006.01-2008.12"
+        "Fuzzy Modeling and Control for Distributed Parameter Systems with Spatial Information. National Natural Science Foundation (60604018), PI, 2007.01-2009.12",
+        "863计划资助课题：网络信息模式下的生产全过程整体优化技术与应用，主研，2006.01-2008.12",
+        "Global Optimization Technology and Application of Complex Processes under Networked Information Mode. National Key Technologies R&D Program (2006AA04Z173), 2006.01-2008.12"
       ]
     },
     {
       "category": "省部级课题",
       "items": [
          "上海交通大学晨星青年学者奖励计划(A类)：复杂系统的高效预测控制性能分析、设计及应用，主持，2014.12-2016.12",
+         "Performance Analysis, Design and Application of Efficient Predictive Control for Complex Systems. SJTU Morningstar Young Scholars Program (Class A), PI, 2014.12-2016.12",
          "上海市科技创新计划国际合作项目：面向节能降耗的新型ACB式HVAC空调系统，主研，2012.10-2014.09",
+         "Novel ACB-type HVAC Air Conditioning System for Energy Saving and Consumption Reduction. International Cooperation Project of Shanghai Science and Technology Innovation Program, Member, 2012.10-2014.09",
          "上海市经信委子课题：分布式光伏微小逆变设备研发与产业化，主持，2012.01-2015.12",
+         "Research and Development of Distributed Photovoltaic Mini Inverter Equipment. Project of Shanghai Economic and Information Commission, PI, 2012.01-2015.12",
          "上海教委科研创新重点项目：消相干效应下的量子控制和优化设计，主研，2011.01-2013.12",
+         "Quantum Control and Optimization Design under Decoherence Effect. Key Project of Scientific Research and Innovation of Shanghai Education Commission, Member, 2011.01-2013.12",
          "铁道部科技研究开发计划重点课题：高速动车组牵引预测控制技术方案的研究，主研，2011.01-2012.12",
+         "Research on Technical Scheme of Traction Predictive Control for High-speed EMU. Key Project of Technology Research and Development Program of Ministry of Railways, Member, 2011.01-2012.12",
          "上海科委基础研究重点项目子课题：基于化工过程机理与运行信息融合的过程控制与优化理论方法及工业应用， 主持，2010.10-2012.09",
+         "Chemical Process Mechanism and Operation Information Based Process Control, Optimization and Applications. Key Project of Shanghai Science and Technology Commission (10JC1403400), PI, 2010.10-2012.09",
          "上海市科委信息化专项：钢铁生产合同组织排程优化技术研究，主研，2010.06-2011.09",
-         "上海市自然科学基金：燃煤机组SCR脱硝反应建模与控制技术研究，主持，2006.09-2008.08"
+         "Research on Scheduling Optimization Technology of Steel Production Contract. Shanghai Science and Technology Commission information specialization, Member, 2010.06-2011.09",
+         "上海市自然科学基金：燃煤机组SCR脱硝反应建模与控制技术研究，主持，2006.09-2008.08",
+         "Modeling and Control of SCR De-NOx Systems, Shanghai Natural Science Foundation (06ZR14044), PI, 2006.09-2008.08"
       ]
     },
     {
       "category": "代表性企业课题",
       "items": [
         "基于多智能体技术的分布式能源网络系统优化控制方法，2016.12-2018.08",
-        "基于大数据的风电智能化诊断模型，2016.10-2017.05"
+        "Multi-Agent Technology Based Optimal Control of Distributed Energy Network Systems. 2016.12-2018.08",
+        "基于大数据的风电智能化诊断模型，2016.10-2017.05",
+        "Big Data Based Intelligent Diagnostic Model of Wind Power. 2016.10-2017.05"
       ]
     }
   ]

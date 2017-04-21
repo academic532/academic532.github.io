@@ -14,22 +14,22 @@ title: Home
       </ul>
     </div>
     <div class="col-sm-12 col-md-7">
-      <div class="panel panel-info">
-        <div class="panel-heading">
-          <h3 class="panel-title">Conference Submission Entries</h3>
-        </div>
-        <ul class="list-group">
-          {% for item in site.data.conferences.entry %}
-            <li class="list-group-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
       <div class="panel panel-success">
         <div class="panel-heading">
           <h3 class="panel-title">Lab News</h3>
         </div>
         <ul class="list-group">
           {% for item in site.data.news.entry %}
+            <li class="list-group-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">Conference Submission Entries</h3>
+        </div>
+        <ul class="list-group">
+          {% for item in site.data.conferences.entry %}
             <li class="list-group-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
           {% endfor %}
         </ul>

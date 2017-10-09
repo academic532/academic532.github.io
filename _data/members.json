@@ -41,6 +41,13 @@
           "misc": {
             "Research": "Model Predictive Control"
           }
+        },
+        {
+          "name": "Mi Yan（严蜜）",
+          "avatar": "yanmi.png",
+          "misc": {
+            "Research": "undetermined"
+          }
         }
       ]
     },
@@ -94,6 +101,34 @@
           "avatar": "tanjiajie.png",
           "misc": {
             "Research": "Scene Reconstruction and Perception"
+          }
+        },
+        {
+          "name": "Gojko Perović",
+          "avatar": "gojko.png",
+          "misc": {
+            "Research": "undetermined"
+          }
+        },
+        {
+          "name": "Na Song（宋娜）",
+          "avatar": "songna.png",
+          "misc": {
+            "Research": "undetermined"
+          }
+        },
+        {
+          "name": "Jinyu Xu（徐金玉）",
+          "avatar": "xujinyu.png",
+          "misc": {
+            "Research": "undetermined"
+          }
+        },
+        {
+          "name": "Zhiheng Kang（康志恒）",
+          "avatar": "kangzhiheng.png",
+          "misc": {
+            "Research": "undetermined"
           }
         }
       ]

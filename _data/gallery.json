@@ -2,7 +2,7 @@
   "usage": "index file of gallery page",
   "entry": [
     {
-      "place": "Chongqing",
+      "place": "Chongqing(2017 Chinese Process Control Conference)",
       "date": "2017-7-31",
       "folder": "2017cpcc",
       "pics": [
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "place": "Liaoning Dalian",
+      "place": "Liaoning Dalian(2017 Chinese Control Conference)",
       "date": "2017-7-27",
       "folder": "2017ccc",
       "pics": [
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "place": "Sichuan Chengdu",
+      "place": "Sichuan Chengdu(2016 Chinese Control Conference)",
       "date": "2016-7-27",
       "folder": "2016ccc",
       "pics": [

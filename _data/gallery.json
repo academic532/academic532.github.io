@@ -2,6 +2,22 @@
   "usage": "index file of gallery page",
   "entry": [
     {
+      "place": "Anwei Huangshan(2017 autumn outing)",
+      "date": "2017-11-18",
+      "folder": "2017huangshan",
+      "pics": [
+        "huangshan1.png",
+        "huangshan2.png",
+        "huangshan3.png",
+        "huangshan4.png",
+        "huangshan5.png",
+        "huangshan6.png",
+        "huangshan7.png",
+        "huangshan8.png",
+        "huangshan9.png"
+      ]
+    },
+    {
       "place": "Chongqing(2017 Chinese Process Control Conference)",
       "date": "2017-7-31",
       "folder": "2017cpcc",
@@ -41,7 +57,7 @@
       ]
     },
     {
-      "place": "Shanghai Disneyland",
+      "place": "Shanghai Disneyland(2016 autumn outing)",
       "date": "2016-10-25",
       "folder": "disney",
       "pics": [
@@ -69,7 +85,7 @@
       ]
     },
     {
-      "place": "Gongqing Forest Park",
+      "place": "Gongqing Forest Park(2016 spring outing)",
       "date": "2016-03-20",
       "folder": "gqpark",
       "pics": [

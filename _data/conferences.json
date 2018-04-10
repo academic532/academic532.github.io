@@ -2,28 +2,24 @@
   "usage": "index of conference submission ecntries",
   "entry": [
     {
-      "name": "IFAC 2017(The 20th World Congress of the International Federation of Automatic Control)",
-      "link": "http://www.ifac2017.org/"
+      "name": "IFAC 2020(The 21th World Congress of the International Federation of Automatic Control)",
+      "link": "http://www.ifac2020.org/"
     },
     {
-      "name": "IEEE CDC 2017(The 56th IEEE Conference on Decision and Control)",
-      "link": "http://cdc2017.ieeecss.org/"
+      "name": "IEEE CDC 2018(The 57th IEEE Conference on Decision and Control)",
+      "link": "https://cdc2018.ieeecss.org/"
     },
     {
-      "name": "IEEE ACC 2017(The 2017 IEEE American Control Conference)",
-      "link": "http://acc2017.a2c2.org/"
+      "name": "IEEE ACC 2018(The 2018 IEEE American Control Conference)",
+      "link": "http://acc2018.a2c2.org/"
     },
     {
-      "name": "ASCC 2017(The 11th Asian Control Conference)",
-      "link": "https://www.ascc2017.com/"
+      "name": "CCC 2018(The 37th Chinese Control Conference)",
+      "link": "http://ccc2018.cug.edu.cn/"
     },
     {
-      "name": "CCC 2017(The 36th Chinese Control Conference)",
-      "link": "http://ccc2017.dlut.edu.cn/"
-    },
-    {
-      "name": "CPCC 2017(The 28th Chinese Process Control Conference)",
-      "link": "http://2017.cn-tcpc.org/"
+      "name": "CPCC 2018(The 29th Chinese Process Control Conference)",
+      "link": "http://2018.cn-tcpc.org/"
     }
   ]
 }

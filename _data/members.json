@@ -55,27 +55,6 @@
       "category": "Master Students",
       "items": [
         {
-          "name": "Muhammad Javed",
-          "avatar": "javed.png",
-          "misc": {
-            "Research": "Comfort-driven and energy efficient control of HVAC system"
-          }
-        },
-        {
-          "name": "Xilei Wang（王锡磊）",
-          "avatar": "wangxilei.png",
-          "misc": {
-            "Research": "Soft Sensing"
-          }
-        },
-        {
-          "name": "Jing Yang（杨晶）",
-          "avatar": "yangjing.png",
-          "misc": {
-            "Research": "Fault Dignosis"
-          }
-        },
-        {
           "name": "Sebastien Kleff",
           "avatar": "seb.png",
           "misc": {
@@ -136,6 +115,27 @@
     {
       "category": "Alumni",
       "items": [
+        {
+          "name": "Muhammad Javed",
+          "avatar": "javed.png",
+          "misc": {
+            "Research": "Comfort-driven and energy efficient control of HVAC system"
+          }
+        },
+        {
+          "name": "Xilei Wang（王锡磊）",
+          "avatar": "wangxilei.png",
+          "misc": {
+            "Research": "Soft Sensing"
+          }
+        },
+        {
+          "name": "Jing Yang（杨晶）",
+          "avatar": "yangjing.png",
+          "misc": {
+            "Research": "Fault Dignosis"
+          }
+        },
         {
           "name": "Huike Li（李惠柯）",
           "avatar": "lihuike.png",

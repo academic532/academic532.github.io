@@ -38,6 +38,12 @@
       "link": "",
       "figures": ["swcg1.png","swcg2.png","swcg3.png"],
       "description": "<p>Reconstruction and perception of 3D environment serve as an important prior for automated systems, by providing task-relevant information about workspace. Realated works aimed to build a framework for reconstruction and analysis of visual information presented in scenes, including category, position, and pose of objects. Due to the intrinsic large-scale and nonuniform characteristics, this topic encounters key issues such as robustness, efficiency and feasibility. Our contributions have been validated by simulations and tests deployed in production environment. Featured contributions including: (1) enhanced feature descriptors outperforms existing methods on run-time, while maintains the discriminative power; (2) dimensional-reduced method can percepts object properties at real-time speed; (3) distributed structured point cloud supports real-time conversion, with ultra-fast processing speed that is distinctly better than traditional point cloud.</p>  <p>Case study: Scene reconstruction and perception</p>"
+    },
+    {
+      "name": "本科生PRP项目：基于Matlab的新能源电动车热管理控制系统仿真研究",
+      "link": "",
+      "figures": ["prp1.png","prp2.png","prp3.png"],
+      "description": "<p>为了应对全球能源危机和环境污染，新能源电动车因其无污染、噪声低、节能等特点备受青睐，目前，如何最大限度发挥电池使用性能，合理分配有限的电池能量是需要不断研究的问题。针对此问题所开展的本PRP项目由李运鸿、吕东旭、李启开三名本科同学参与完成，工作内容分别是：1.通过对电动汽车车内热负荷的计算和空调系统制热机理的分析，完成电动车热负荷建模和空调系统制热能耗建模  2.通过对电动车空调系统中制冷系统工作流程的分析，对制冷模块的关键部件压缩机进行了建模并完成了相应的仿真  3.针对新能源电动汽车的平流式冷凝器-膨胀阀-蒸发器进行仿真分析，完成了制冷系统的整体建模和参数调试，同时联合Refprop和matlab2016a软件，实现了界面的可视化。</p>"
     }
   ]
 }

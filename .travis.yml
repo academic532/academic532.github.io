@@ -1,5 +1,5 @@
 rvm:
-- 2.2
+- 2.5.0
 before_install:
 - openssl aes-256-cbc -K $encrypted_78c3e882d789_key -iv $encrypted_78c3e882d789_iv
   -in id_rsa.enc -out ~/.ssh/id_rsa -d

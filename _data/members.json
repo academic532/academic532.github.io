@@ -32,19 +32,26 @@
           "name": "Dewen Li（黎德文）",
           "avatar": "lidewen.png",
           "misc": {
-            "Research": "Model Predictive Control"
+            "Research": "Model Predictive Control & Reinforcement Learning"
           }
         },
         {
           "name": "Zhe Chen（陈哲）",
           "avatar": "chenzhe.png",
           "misc": {
-            "Research": "Model Predictive Control"
+            "Research": "Model Predictive Control & Distributed Optimization"
           }
         },
         {
           "name": "Mi Yan（严蜜）",
           "avatar": "yanmi.png",
+          "misc": {
+            "Research": "Metric learning & Machine learning"
+          }
+        },
+        {
+          "name": "Liying Yu（于丽英）",
+          "avatar": "yuliying.png",
           "misc": {
             "Research": "undetermined"
           }
@@ -55,17 +62,31 @@
       "category": "Master Students",
       "items": [
         {
+          "name": "Xiangzhi Hu（胡祥志）",
+          "avatar": "huxiangzhi.png",
+          "misc": {
+            "Research": "undetermined"
+          }
+        },
+        {
+          "name": "Nan Ye（叶楠）",
+          "avatar": "yenan.png",
+          "misc": {
+            "Research": "undetermined"
+          }
+        },
+        {
+          "name": "Yiming Bian（卞一鸣）",
+          "avatar": "bianyiming.png",
+          "misc": {
+            "Research": "undetermined"
+          }
+        },
+        {
           "name": "Sebastien Kleff",
           "avatar": "seb.png",
           "misc": {
             "Research": "Safe Motion, Viability Theory"
-          }
-        },
-        {
-          "name": "Weizhou Shen（沈惟舟）",
-          "avatar": "shenweizhou.png",
-          "misc": {
-            "Research": "Big data pretreatment"
           }
         },
         {
@@ -83,6 +104,13 @@
           }
         },
         {
+          "name": "Weizhou Shen（沈惟舟）",
+          "avatar": "shenweizhou.png",
+          "misc": {
+            "Research": "Data-driven Wind Power Forecasting"
+          }
+        },
+        {
           "name": "Gojko Perović",
           "avatar": "gojko.png",
           "misc": {
@@ -93,21 +121,21 @@
           "name": "Na Song（宋娜）",
           "avatar": "songna.png",
           "misc": {
-            "Research": "undetermined"
+            "Research": "Health Management, Condition Assessment and Fault Prediction"
           }
         },
         {
           "name": "Jinyu Xu（徐金玉）",
           "avatar": "xujinyu.png",
           "misc": {
-            "Research": "undetermined"
+            "Research": "Data-driven Wind Power Forecasting"
           }
         },
         {
           "name": "Zhiheng Kang（康志恒）",
           "avatar": "kangzhiheng.png",
           "misc": {
-            "Research": "undetermined"
+            "Research": "Scene Reconstruction and Perception"
           }
         }
       ]

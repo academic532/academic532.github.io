@@ -3,14 +3,14 @@
   "entry": {
     "folder": "homeSlider",
     "pics": [
+      "slide13.jpg",
+      "slide12.jpg",
       "slide11.png",
       "slide6.jpg",
       "slide7.jpg",
       "slide8.png",
-      "slide9.png",
       "slide5.jpg",
       "slide1.jpg",
-      "slide4.jpg",
       "slide10.png"
     ]
   }

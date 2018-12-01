@@ -2,6 +2,17 @@
   "usage": "index file of gallery page",
   "entry": [
     {
+      "place": "Shanghai Pujiang Rose Garden(2018 autumn outing)",
+      "date": "2018-11-24",
+      "folder": "2018autumnout",
+      "pics": [
+        "2018autumn1.jpg",
+        "2018autumn2.jpg",
+        "2018autumn3.jpg",
+        "2018autumn4.jpg"
+      ]
+    },
+    {
       "place": "Shanghai Chenshan Botanical Garden(2018 spring outing)",
       "date": "2018-4-1",
       "folder": "2018CSBG",

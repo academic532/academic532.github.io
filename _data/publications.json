@@ -4,6 +4,17 @@
     {
       "category": "Papers",
       "items": [
+         "Yanting Xu, Guangming Zhang, Ning Li, Jing Zhang, Shaoyuan Li, and Lu Wang. Data Driven Performance Monitoring for Model Predictive Control Using an Overall Index Based on Mahalanobis Distance. Asian Journal of Control. 2019, 21(3): pp.1-17",
+         "Jing Zhang, Na Jiang, Huike Li, Ning Li. Online Health Assessment of Wind Turbine Based on    Operational Condition Recognition[J]. Transactions of the Institute of Measurement and Control. 2018",
+         "Li D, Chen Z, Li N. Gap metric–based model bank construction for wind turbine predictive control[J]. Optimal Control Applications and Methods，2018, 39(5): 1610-1626",
+         "Yuli Xu, Sheng Chen, Muhammad Javed, Ning Li, Zhongxue Gan. A Muti-occupants’confort driven and energy efficient control strategy of VAV system based on learned thermal comfort profiles. Science and Technology for the Built Environment.2018",
+         "Sébastien Kleff, Ning Li, Motion Planning in Dynamic Environments Based on Sampled-Data Hamilton-Jacobi Reachability, submitted to IEEE Transactions on Automatic Control",
+         "Na Jiang, Ning Li. Graphical Temporal Semi-Supervised Deep Learning Based Principal Fault Location in Wind Turbine Systems. IEEE transaction on Instrumentation & Measurement 2018",
+         "Jing Zhang, Na Jiang, Huike Li and Ning Li. Online health assessment of wind turbine based on operational condition recognition. Transactions of the Institute of Measurement and Control.2018. pp.1-12",
+         "Chen, Z. Li, N. Distributed Cooperative Whale Optimization Algorithm . 2018 Chinese Process Control Conference",
+         "Shen Weizhou, Jiang Na, Li ning. An EMD-RF based short-term wind power forecasting method. DDCLS'18",
+         "S. Kleff and N. Li, “A Sample-Data Hamilton-Jacobi Reachability Approach to Safe and Robust Motion Planning” in Proceedings of the 30th Chinese Control and Decision Conference (2018 CCDC), June 2018, pp. 3386-3392",
+
          "Li D, Tao X, Li N, et al. Switched Offline Multiple Model Predictive Control with Polyhedral Invariant Sets[J]. Industrial & Engineering Chemistry Research, 2017, 56(34): 9629-9637.(SCI)",
          "Tao X, Li N, Li S. Multiple model predictive control for large envelope flight of hypersonic vehicle systems[J]. Information Sciences, 2016, 328: 115-126.(ESI)",
          "Tao X, Li D, Wang Y, et al. Gap-Metric-Based Multiple-Model Predictive Control with a Polyhedral Stability Region[J]. Industrial & Engineering Chemistry Research, 2015, 54(45): 11319-11329.(SCI)",
@@ -86,6 +97,16 @@
         "Feng Chao, Li Ning, Li Shaoyuan. Learning Algorithms of Growing Sparse Neural Networks. International Conference on Modelling, Identification and Control, June 28-July 2, 2008(EI) ",
     
 
+        "张静，李柠，李少远，黄猛. 基于数据的风电机组发电机健康状况评估[J]. 信息与控制. 2018",
+        "李惠柯，张静，李柠. 基于复合神经网络的轴承退化评估和预测[J].控制工程. 2018",
+        "许裕栗，杨晶，李柠，甘中学. Xgboost算法在区域用电预测中的应用[J]. 自动化仪表, 2018,39(07):1-5",
+        "许裕栗，姜娜，陈卓，李柠，甘中学. 基于LSTM网络的居民区供热负荷短时预测. 自动化仪表. 2018",
+        "许裕栗，张静，李柠，甘中学，基于数据挖掘的锅炉在线运行状态监测. 热能动力工程. 2018",
+        "许裕栗，陈哲，李柠，甘中学. 变速变桨风力机系统的动态矩阵控制. 水电能源科学. 2018",
+        "严蜜, 李柠, 甘中学. 基于非监督特征深度学习的手写数字识别.CPCC2018",
+        "康志恒, 吴同茂, 李柠, 甘中学, 基于 LabVIEW 和 moRIO 的磁悬浮综合实验平台设计.CPCC2018",
+        "宋娜,邹卫军, 李柠, 甘中学. 激光武器跟踪平台的视频传输及同步显示软件设计.CPCC2018",
+        "徐金玉，费飞，李柠.基于惯性传感器和Unity的运动捕捉系统.CPCC2018",
 
         "费爱玲，李柠，李少远. 固定翼无人机的自抗扰反步控制[J]. 控制理论与应用, 2016, 33(10): 1296-1302.",
         "姜娜，李柠，王华忠, 等. 重油常压塔硬件在环模拟仿真系统开发[J]. 自动化仪表, 2016, 37(8): 65-68.",
@@ -105,6 +126,8 @@
     {
       "category": "Patent & Software Copyright",
       "items": [
+         "（专利）王锡磊,李柠。一种用于流化催化裂化中催化剂积碳含量实时精确测量的方法及系统（已申请)",
+         "（专利）杨晶,李柠。风电机组整机脆弱性分析与故障排序方法及电子终端（已实审）",
          "（专利）李惠柯，张静，李柠。风机健康评估的方法、系统、存储器及控制器。申请时间：2017.06.30，公开号：CN107341349A",
          "（专利）黎德文，李柠。风机多模型预测控制方法、系统、存储器及控制器。申请时间：2017.06.27，公开号：CN107191328A",
          "（专利）李惠柯，李柠，李少远。一种轴承健康评估与预测的方法及系统。申请时间：2016.04.28，公开号：CN105975749A", 

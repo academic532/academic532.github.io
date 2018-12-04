@@ -3,15 +3,17 @@
   "entry": {
     "folder": "homeSlider",
     "pics": [
-      "slide13.jpg",
-      "slide12.jpg",
-      "slide11.png",
-      "slide6.jpg",
-      "slide7.jpg",
-      "slide8.png",
-      "slide5.jpg",
-      "slide1.jpg",
-      "slide10.png"
+      "slide11.jpg",
+      "slide10.png",
+      "slide9.jpg",
+      "slide8.jpg",
+      "slide7.png",
+      "slide6.png",
+      "slide5.png",
+      "slide4.jpg",
+      "slide3.jpg",
+      "slide2.jpg",
+      "slide1.jpg"
     ]
   }
 }

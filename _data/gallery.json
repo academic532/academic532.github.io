@@ -2,6 +2,19 @@
   "usage": "index file of gallery page",
   "entry": [
     {
+      "place": "JUMP 360(2019 spring outing)",
+      "date": "2019-3-10",
+      "folder": "2019springout",
+      "pics": [
+        "2019spring1.jpg",
+        "2019spring2.jpg",
+        "2019spring3.jpg",
+        "2019spring4.jpg",
+        "2019spring5.jpg",
+        "2019spring6.jpg"
+      ]
+    },
+    {
       "place": "Shanghai JiaoTong University(2019 Graduation)",
       "date": "2019-1-17",
       "folder": "2019graduation",

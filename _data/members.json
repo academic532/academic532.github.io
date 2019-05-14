@@ -83,34 +83,6 @@
           }
         },
         {
-          "name": "Sebastien Kleff",
-          "avatar": "seb.png",
-          "misc": {
-            "Research": "Safe Motion, Viability Theory"
-          }
-        },
-        {
-          "name": "Jing Zhang（张静）",
-          "avatar": "zhangjing.png",
-          "misc": {
-            "Research": "Health Management, Condition Assessment and Fault Prediction"
-          }
-        },
-        {
-          "name": "Jiajie Tan（谈加杰）",
-          "avatar": "tanjiajie.png",
-          "misc": {
-            "Research": "Scene Reconstruction and Perception"
-          }
-        },
-        {
-          "name": "Weizhou Shen（沈惟舟）",
-          "avatar": "shenweizhou.png",
-          "misc": {
-            "Research": "Data-driven Wind Power Forecasting"
-          }
-        },
-        {
           "name": "Gojko Perović",
           "avatar": "gojko.png",
           "misc": {
@@ -143,6 +115,34 @@
     {
       "category": "Alumni",
       "items": [
+        {
+          "name": "Sebastien Kleff",
+          "avatar": "seb.png",
+          "misc": {
+            "Research": "Safe Motion, Viability Theory"
+          }
+        },
+        {
+          "name": "Jing Zhang（张静）",
+          "avatar": "zhangjing.png",
+          "misc": {
+            "Research": "Health Management, Condition Assessment and Fault Prediction"
+          }
+        },
+        {
+          "name": "Jiajie Tan（谈加杰）",
+          "avatar": "tanjiajie.png",
+          "misc": {
+            "Research": "Scene Reconstruction and Perception"
+          }
+        },
+        {
+          "name": "Weizhou Shen（沈惟舟）",
+          "avatar": "shenweizhou.png",
+          "misc": {
+            "Research": "Data-driven Wind Power Forecasting"
+          }
+        },
         {
           "name": "Muhammad Javed",
           "avatar": "javed.png",

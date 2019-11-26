@@ -2,6 +2,21 @@
   "usage": "index file of gallery page",
   "entry": [
     {
+      "place": "Shaoxing Xuedou(2019 autumn outing)",
+      "data": "2019-11-03",
+      "folder": "2019autumnout",
+      "pics": [
+        "2019autumn1.jpg",
+        "2019autumn2.jpg",
+        "2019autumn3.jpg",
+        "2019autumn4.jpg",
+        "2019autumn5.jpg",
+        "2019autumn6.jpg",
+        "2019autumn7.jpg",
+        "2019autumn8.jpg"
+      ]
+    },
+    {
       "place": "JUMP 360(2019 spring outing)",
       "date": "2019-3-10",
       "folder": "2019springout",

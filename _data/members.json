@@ -55,12 +55,33 @@
           "misc": {
             "Research": "Large Scale Optimization & Evolutionary Computation"
           }
+        },
+        {
+          "name": "Jinghao Xin（辛靖豪）",
+          "avatar": "xinjinghao.jpg",
+          "misc": {
+            "Research": "Reinforcement Learning, Deep Learning, Optimization"
+          }
         }
       ]
     },
     {
       "category": "Master Students",
       "items": [
+        {
+          "name": "Wenkang Zhou（周文康）",
+          "avatar": "zhouwenkang.jpg",
+          "misc": {
+            "Research": "Few Shot Learning"
+          }
+        },
+        {
+          "name": "Ruogu Wang（王若谷）",
+          "avatar": "wangruogu.jpg",
+          "misc": {
+            "Research": "Object Detection"
+          }
+        },
         {
           "name": "Xiangzhi Hu（胡祥志）",
           "avatar": "huxiangzhi.png",
@@ -88,7 +109,12 @@
           "misc": {
             "Research": "undetermined"
           }
-        },
+        }
+      ]
+    },
+    {
+      "category": "Alumni",
+      "items": [
         {
           "name": "Na Song（宋娜）",
           "avatar": "songna.png",
@@ -109,12 +135,7 @@
           "misc": {
             "Research": "Scene Reconstruction and Perception"
           }
-        }
-      ]
-    },
-    {
-      "category": "Alumni",
-      "items": [
+        },
         {
           "name": "Sebastien Kleff",
           "avatar": "seb.png",

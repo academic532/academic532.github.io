@@ -3,47 +3,78 @@
   "micropage": "http://u1755815.jisuwebapp.com/s?id=2941259",
   "entry": [
     {
-      "name": "Model Predictive Control",
-      "link": "",
-      "figures": ["yckz1.jpg","yckz2.png","yckz3.jpg"],
-      "description": "<p>Model predictive control (MPC) is a closed-loop optimal control strategy based on model. The core of the algorithm is predictable future dynamic model, online repeated optimization calculation and rolling control effect and model error feedback correction. The model predictive control has the advantages of good control effect and strong robustness, which can effectively overcome the uncertainties, nonlinearity and parallelism of the process, and can conveniently handle the various constraints in the manipulated variables. We study the the MPC algorithm and focus on the following researches: (1) Multiple Model Predictive Control (MMPC). MMPC utilizes a linear model bank to handle the nonlinearity of system and transfers nonlinear MPC to linear MPC. (2) Performance limit analysis of predictive control system. Performance limit analysis focus on the best performance index that the system might achieve and provide the basis for the design of the control system.</p>  <p>Case study: Wind power generation's control</p>"
-    },
-    {
-      "name": "Big Data Analysis",
+      "name": "Optimization",
       "link": "",
       "figures": [],
       "children": [
         {
-          "name": "Data-driven Fault Diagnosis of syetem",
-          "link": "",
-          "figures": ["gzzd1.png","gzzd2.png","gzzd3.png"],
-          "description": "<p>Due to the coupling between components of industrial system, there is a phenomenon that a faults-chain will be caused by a principal fault. In order to carry out operation and maintenance efficiently, it is necessary to locate the principal fault accurately. We focus on how to make use of data recorded for principal fault location of faults-chain. A Principal Fault Location (PFL) model are presented based on deep learning and semi-supervised learning algorithm. Data preprocessing methods are studied to obtain good data. Deep Learning models are applied and improved to extract features from data automatically. Based on the mass of unlabeled data, we proposed a Graphical Temporal Semi-Supervised Learning algorithm to develop our training set. </p>  <p>Case study: Principal Fault Location of Faults-Chain in Wind Turbine System</p>"
+          "name": "Optimization and Reinforcement Learning",
+	  "link": "",
+          "figures": [],
+          "description": "<p>Reinforcement learning (RL) is a class of learning problems framed in the context of planning on a Markov Decision Process (MDP), when the MDP is not known. In RL, an agent continually interacts with the environment. In particular, the agent observes the state of the environment, and based on this observation takes an action. The goal of the RL agent is to compute a policy–a mapping between the environment states and actions–that maximizes a long term reward. Many system optimization problems have a nature of delayed, sparse, aggregated or sequential rewards, where improving the long term sum of rewards is more important than a single immediate reward. Reinforcement learning algorithm can be classified as value-based which the agent is expecting a long-term return of the current states under policy π and policy-based which you try to come up with such a policy that the action performed in every state helps you to gain maximum reward in the future.</p>"
         },
         {
-          "name": "Health management of Equipment",
+          "name": "Optimization and stochastic optimization method",
           "link": "",
-          "figures": ["jkgl1.png","jkgl2.png","jkgl3.png"],
-          "description": "<p>Take full account of the multi-dimensional state information and the changes in operating conditions of the equipment. By collecting and analyzing great quantity of data from the running equipment, study the equipment monitoring model to determine the current health of the equipment and detect the latent failure timely based on machine learning and other related algorithms. Provide reasonable recommendations in order to ensure the safety, efficient operation and maintenance of the equipment.</p>  <p>Case study: Health management of wind tuibine</p>"
+          "figures": ["osom1.png"],
+          "description": "<p>The stochastic optimization method is a kind of modern intelligent optimization technique that stimulates the mechanism of how things work in nature. The biggest advantage of the stochastic optimization method is that it can solve optimization problems with non-convex, non-smooth, discontinuous objective functions, which is infeasible for conventional mathematic optimization techniques. However, the standard stochastic optimization techniques, such as simulated annealing(SA), genetic algorithms(GA), tabu search(TS), and particle swarm optimization(PSO), suffer from the exploration and exploitation problem, as well as the robustness problem in solution quality, which is our main focus now.</p>  <p>Case study: non-convex, non-smooth, discontinuous optimization</p>"
         },
         {
-          "name": "Soft sensing",
+          "name": "Optimization and Analytical Method",
           "link": "",
-          "figures": ["rcl1.png","rcl2.jpg","rcl3.png"],
-          "description": "<p>Soft sensing technique is an effective method to solve such kind of problem that variables can’t be measured directly in industrial process, it overcomes the time lag problem of off-line artificial sampling and analysis, and it has received extensive attention from petrochemical enterprise. Generally, soft sensing is a method based on traditional measuring methods. It selects a set of secondary variables which are closely related to the primary variables and easier to be measured precisely in an industrial process to instead of the direct measuring of primary variables. It calculates the values of primary variables indirectly by using the relationship between secondary and primary variables. The selection of secondary variables is generally according to the mechanism process and determine the variables which influence the values of the primary variables directly.Using the soft-sensing technology to achieve the online detection of element content is not only economic and reliable,but also has a rapid dynamic response,which is easy to achieve the control of product quality.</p>  <p>Case study: Soft sensing in petrochemical industry</p>"
+          "figures": [],
+          "description": "<p>The constrained optimization problem plays an import role in various fields. The primal-dual dynamic seeks the saddle point for a constrained optimization problem and is widely used to the distributed solution design. When considering the inequality constraints, a positive projector is often needed to guarantee the nonnegativity of the Lagrange multiplier. That results in a discontinuous Lyapunov function and makes the stability analysis tough. Our research develops smooth algorithms based on the generalized Lagrangian and proves the stability by a continuous Lyapunov function.  We also explore the distributed optimization algorithm for problems with nonconvex local functions.</p>"
+        },
+        {
+          "name": "Optimization and Optimal Control",
+          "link": "",
+          "figures": [],
+          "description": "<p>Compared with traditional optimal control problem, data-driven optimal control algorithm combined with reinforcement learning shows its effectiveness in it less requirement on system dynamics and its high computational efficiency. The current literatures focus more on the infinite horizon case. Therefore, our research puts forward the online model-free reinforcement learning algorithm of the optimization problem in finite horizon case. Then we want to extend this algorithm to more complicated systems such as the zero-sum games and multiplayer games，Finally these algorithms are applied to solving the optimal control dynamic dispatch problem.</p>"
         }
       ]
     },
     {
-      "name": "3D Reconstruction",
+      "name": "Machine Learning",
       "link": "",
-      "figures": ["swcg1.png","swcg2.png","swcg3.png"],
-      "description": "<p>Reconstruction and perception of 3D environment serve as an important prior for automated systems, by providing task-relevant information about workspace. Realated works aimed to build a framework for reconstruction and analysis of visual information presented in scenes, including category, position, and pose of objects. Due to the intrinsic large-scale and nonuniform characteristics, this topic encounters key issues such as robustness, efficiency and feasibility. Our contributions have been validated by simulations and tests deployed in production environment. Featured contributions including: (1) enhanced feature descriptors outperforms existing methods on run-time, while maintains the discriminative power; (2) dimensional-reduced method can percepts object properties at real-time speed; (3) distributed structured point cloud supports real-time conversion, with ultra-fast processing speed that is distinctly better than traditional point cloud.</p>  <p>Case study: Scene reconstruction and perception</p>"
-    },
-    {
-      "name": "本科生PRP项目：基于Matlab的新能源电动车热管理控制系统仿真研究",
-      "link": "",
-      "figures": ["prp1.png","prp2.png","prp3.png"],
-      "description": "<p>为了应对全球能源危机和环境污染，新能源电动车因其无污染、噪声低、节能等特点备受青睐，目前，如何最大限度发挥电池使用性能，合理分配有限的电池能量是需要不断研究的问题。针对此问题所开展的本PRP项目由李运鸿、吕东旭、李启开三名本科同学参与完成，工作内容分别是：1.通过对电动汽车车内热负荷的计算和空调系统制热机理的分析，完成电动车热负荷建模和空调系统制热能耗建模  2.通过对电动车空调系统中制冷系统工作流程的分析，对制冷模块的关键部件压缩机进行了建模并完成了相应的仿真  3.针对新能源电动汽车的平流式冷凝器-膨胀阀-蒸发器进行仿真分析，完成了制冷系统的整体建模和参数调试，同时联合Refprop和matlab2016a软件，实现了界面的可视化。</p>"
+      "figures": [],
+      "children": [
+        {
+          "name": "Data driven Fault Diagnosis and Detection (FDD) method",
+          "link": "",
+          "figures": ["ddfdadm1.jpg"],
+          "description": "<p>Data driven Fault diagnosis and detection (FDD), as an important technique to reduce the damage of components and improve system reliability, has been developed by researchers during the past decades. With the fast development of intelligent monitoring technology, internet information technology, and data storage technology, data-driven FDD method has become an attractive and successful type of FDD methods. The data-driven FDD method applies machine learning algorithms and statistical approaches to analyze historical data and extract implicit relationships. Many machine learning algorithms, such as Gaussian Mixture Model (GMM), Artificial Neural Network (ANN), Support Vector Machine (SVM), and Deep Learning (DL), are introduced into the data-driven FDD. However, dataset imbalance problem, weakly labeled problem, few-shot problem, and novel online FDD problem still need further researches, which is our main focus now.</p>"
+        },
+        {
+          "name": "Data-driven Fault Detection for Wind Turbines",
+          "link": "",
+          "figures": [],
+          "description": "<p>As clean and sustainable energy generators, wind turbines (WT) receive spread usage and continuous progress on installed capacity, built scale, and WT structural complexity, which results in growing failure rate and attention to WT maintenance likewise. To guarantee power persistence and steadiness, fault detection (FD) methods have been introduced to modern wind farms located in severe environments and monitor WT operating status. Advanced WT is a complicated cross-domain system containing hydraulic, mechanical, electrical subsystems, such as pitch and yaw system, multi-speed gearbox, and DFIG and dual-side converters. Besides these key subsystems, others like bearings, lube and cooling system, control system, and capacitors may also break down then bring whole WT into fault conditions, which inspires WT multiple subsystems FD. Furthermore, problems of WT faults featured as faulted subsystem unpredictability and subsystems interaction (i.e. the chain rule), real-time big-data detection, and various environments and operating conditions transferring have put forward tough demands for WT fault detection, which also increases complexity and hinders precise modeling for WT system. In fact, the FD of WTs should be towards multiple subsystems by cross-domain inputs and WT conditions should be considered.</p>"
+        },
+        {
+          "name": "Deep Metric Learning for Nonlinear and Imbalanced data",
+          "link": "",
+          "figures": ["dmlfnaid1.png"],
+          "description": "<p>Metric learning is an important branch of machine leaning and aims to automatically construct task- specific distance metrics from (weakly) supervised data. The learned metric can be used in recommendation systems, face recognition, and social network analysis, etc. Traditional metric methods (such as Euclidean distance, Mahalanobis distance) are generally applied to linearly separable data, but the practical data are usually nonlinear and imbalanced. In recent years, a lot of research has been studied in the theory, algorithm and application of metric learning. However, for non-linear and imbalanced data, how to obtain the explicit solution of its feature mapping and speed up the learning process still need further investigation. In the last several years, deep learning has gained rapid development in the areas of pattern recognition, computer vision and natural language processing. The powerful learning capability of deep learning offers new route to the research of metric learning.</p>"
+        },
+        {
+          "name": "Few-shot learning (FSL)",
+          "link": "",
+          "figures": ["fsl1.png"],
+          "description": "<p>Humans are good at using very few samples to identify new objects. Inspired by this fast learning ability, few-shot learning (FSL) hopes that machine learning models can learn quickly for new categories with only a small number of samples, after training with a large amount of data for certain categories. As an application of meta-learning in supervised learning, FSL decomposes data into different meta-tasks in the meta-training stage, in order to learn the generalization ability of the model when the category changes. In the meta-testing stage, classification can be completed without completing existing models facing new categories. Currently, FSL research is mainly focused on image files, while others have extended it to NLP. In the future, FSL will play a greater role in more fields.</p>"
+        },
+        {
+          "name": "Machine Vision",
+          "link": "",
+          "figures": ["mv1.png","mv2.png"],
+          "description": "<p>Active object detection (AOD) aims at getting a better image for detection by gradually altering the robot view of the object. It is more effective than traditional object detection when facing the following problems: the object in the image is of tiny scale, the object is blocked by other irrelevant objects, the object is partially captured by the camera, etc. There are several methods to achieve AOD: (1) Using entropy increasing of the current and future images to determine the best position at the next moment. (2) Constructing a specific physical model for analysis. (3) Constructing an action decision model based on CNN to decide the next best view. (4) ….. Methods can be evaluated on the open-source dataset “Action Vision Dataset”. It provides a stable experiment environment.</p>  <p>Case study: AOD based on CNN</p>"
+        },
+        {
+          "name": "Remaining useful life estimation",
+          "link": "",
+          "figures": ["rule1.png"],
+          "description": "<p>Remaining useful life (RUL) refers to the number of time(rounds) left before machine breaks down, which is a main research topic in prognostics and health management (PHM). We aim at extracting degrading related features from original signals to estimate RUL. Both data-driven and model-based methods are adopted, including deep learning, ensemble learning, Kalman filters and so on. Efforts are made to do RUL estimation on a variety of industrial components, such as roller bearings, cutting tools, lithium-ion batteries, aircraft engines and so on.</p>"
+        }
+      ]
     }
   ]
 }

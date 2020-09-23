@@ -3,8 +3,8 @@
   "entry": [
     {
       "place": "Shanghai(Industrial Internet Algorithm Competition of WAIC2020)",
-      "data": "2020-9-16",
-      "folder": "2020WAIC",
+      "date": "2020-9-16",
+      "folder": "2020waic",
       "pics": [
         "2020waic1.jpg",
         "2020waic2.jpg",
@@ -13,7 +13,7 @@
     },
     {
       "place": "Shaoxing Xuedou(2019 autumn outing)",
-      "data": "2019-11-03",
+      "date": "2019-11-03",
       "folder": "2019autumnout",
       "pics": [
         "2019autumn1.jpg",

@@ -4,6 +4,10 @@
     {
       "category": "Journal Papers",
       "items": [
+         "Dewen Li, Ning Li, Frank Lewis. Projection-free Distributed Optimization with Nonconvex Local Objective Functions and Resource Allocation Constraint. IEEE Transactions on Control of Network Systems, 2020.",
+         "Jiang N, Hu X, Li N. Graphical temporal semi-supervised deep learning–based principal fault localization in wind turbine systems[J]. Proceedings of the Institution of Mechanical Engineers, Part I: Journal of Systems and Control Engineering. 2020: 0959651819901034.",
+         "S. Kleff and N. Li. Robust Motion Planning in Dynamic Environments Based on Sampled-Data Hamilton-Jacobi Reachability. Robotica, 2020, 38(12):2151-2172.",
+         "Jiang N, Li N. A wind turbine frequent principal fault detection and localization approach with imbalanced data using an improved synthetic oversampling technique[J]. International Journal of Electrical Power & Energy Systems, 126: 106595.",
          "Qinqin Fan, Ning Li,Yilian ZHANG, Xuefeng YAN. Zoning search using a hyper-heuristic algorithm. SCIENCE CHINA Information Sciences. January 2019, Vol. 62 000000:1–000000:3",
          "Yanting Xu, Guangming Zhang, Ning Li, Jing Zhang, Shaoyuan Li, and Lu Wang. Data Driven Performance Monitoring for Model Predictive Control Using an Overall Index Based on Mahalanobis Distance. Asian Journal of Control. 2019, 21(3): pp.1-17",
          "Jing Zhang, Na Jiang, Huike Li, Ning Li. Online Health Assessment of Wind Turbine Based on Operational Condition Recognition[J]. Transactions of the Institute of Measurement and Control. 2018",
@@ -58,7 +62,11 @@
     },
     {
       "category": "Conference Papers",
-      "items": [      	
+      "items": [ 
+         "JIANG N, Ning L I. Wind turbine frequent principal fault detection based on a self-attentive LSTM encoder-decoder model[C]. 2020 39th Chinese Control Conference (CCC). IEEE",
+         "Liying Yu, Ning Li. A reinforcement learning algorithm based on neural network for economic dispatch. Chinese Control Conference (CCC), 2020",
+         "Xiangzhi Hu, Ning Li. Anomaly Detection and Remaining Useful Life Estimation Based on Degradation State for Bearings. Chinese Control Conference (CCC), 2020.",
+         "Ye Nan, Li Ning. A Novel Active Object Detection Network Based on Historical Scenes and Movements. IEEE 3rd International Conference on Mechatronics, Robotics and Automation (ICMRA), 2020.",  	
          "S. Kleff and N. Li, “A Sample-Data Hamilton-Jacobi Reachability Approach to Safe and Robust Motion Planning” in Proceedings of the 30th Chinese Control and Decision Conference (2018 CCDC), June 2018, pp. 3386-3392",
          "Shen Weizhou, Jiang Na, Li ning. An EMD-RF based short-term wind power forecasting method. DDCLS'18",
          "Chen, Z. Li, N. Distributed Cooperative Whale Optimization Algorithm . 2018 Chinese Process Control Conference",

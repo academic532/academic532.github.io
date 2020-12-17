@@ -5,6 +5,7 @@
       "category": "Journal Papers",
       "items": [
          "Dewen Li, Ning Li, Frank Lewis. Projection-free Distributed Optimization with Nonconvex Local Objective Functions and Resource Allocation Constraint. IEEE Transactions on Control of Network Systems, 2020.",
+         "Yiming Bian, Linghua Zhuang, Ning Li. Modeling and analysis of lithium-ion batteries for vehicles[J]. 控制工程. 2020-03",
          "Jiang N, Hu X, Li N. Graphical temporal semi-supervised deep learning–based principal fault localization in wind turbine systems[J]. Proceedings of the Institution of Mechanical Engineers, Part I: Journal of Systems and Control Engineering. 2020: 0959651819901034.",
          "S. Kleff and N. Li. Robust Motion Planning in Dynamic Environments Based on Sampled-Data Hamilton-Jacobi Reachability. Robotica, 2020, 38(12):2151-2172.",
          "Jiang N, Li N. A wind turbine frequent principal fault detection and localization approach with imbalanced data using an improved synthetic oversampling technique[J]. International Journal of Electrical Power & Energy Systems, 126: 106595.",
@@ -64,9 +65,13 @@
       "category": "Conference Papers",
       "items": [ 
          "JIANG N, Ning L I. Wind turbine frequent principal fault detection based on a self-attentive LSTM encoder-decoder model[C]. 2020 39th Chinese Control Conference (CCC). IEEE",
+         "Yiming Bian, Ning Li. Estimating remaining useful life for lithium-ion batteries using kalman filter banks. IEEE International Conference on Prognostics and Health Management, 2020",
          "Liying Yu, Ning Li. A reinforcement learning algorithm based on neural network for economic dispatch. Chinese Control Conference (CCC), 2020",
          "Xiangzhi Hu, Ning Li. Anomaly Detection and Remaining Useful Life Estimation Based on Degradation State for Bearings. Chinese Control Conference (CCC), 2020.",
-         "Ye Nan, Li Ning. A Novel Active Object Detection Network Based on Historical Scenes and Movements. IEEE 3rd International Conference on Mechatronics, Robotics and Automation (ICMRA), 2020.",  	
+         "Ye Nan, Li Ning. A Novel Active Object Detection Network Based on Historical Scenes and Movements. IEEE 3rd International Conference on Mechatronics, Robotics and Automation (ICMRA), 2020.",  
+         "Gojko Perovic; Ning Li. Curiosity Driven Deep Reinforcement Learning for Motion Planning in Multi-agent Environment. IEEE International Conference on Robotics and Biomimetics, December 2019.",
+         "N Song, X Hu, N Li. Anomaly detection of Wind Turbine Generator based on Temporal Information. ICIT 2019: Proceedings of the 2019 7th International Conference on Information Technology: IoT and Smart City. ",
+         "Kang Zhiheng, Li Ning. PyramNet: Point Cloud Pyramid Attention Network and Graph Embedding Module for Classification and Segmentation. International Conference on Neural Information Processing (ICONIP). ",	
          "S. Kleff and N. Li, “A Sample-Data Hamilton-Jacobi Reachability Approach to Safe and Robust Motion Planning” in Proceedings of the 30th Chinese Control and Decision Conference (2018 CCDC), June 2018, pp. 3386-3392",
          "Shen Weizhou, Jiang Na, Li ning. An EMD-RF based short-term wind power forecasting method. DDCLS'18",
          "Chen, Z. Li, N. Distributed Cooperative Whale Optimization Algorithm . 2018 Chinese Process Control Conference",
@@ -114,6 +119,8 @@
          "Wang M, Li N, Li S. Type-2 TS fuzzy modeling for the dynamic systems with measurement noise[C]//Fuzzy Systems, 2008. FUZZ-IEEE 2008.(IEEE World Congress on Computational Intelligence). IEEE International Conference on. IEEE, 2008: 443-448. ",
          "Feng Chao, Li Ning, Li Shaoyuan. Learning Algorithms of Growing Sparse Neural Networks. International Conference on Modelling, Identification and Control, June 28-July 2, 2008(EI) ",
          
+         "卞一鸣,庄玲华,李柠. 车载锂电池生热模型建模与分析[A]. 中国自动化学会过程控制专业委员会.第30届中国过程控制会议（CPCC 2019）",
+         "胡祥志，庄玲华，李柠. BP-PID 算法在电动汽车空调温度控制中的应用.CPCC2019",
          "严蜜, 李柠, 甘中学. 基于非监督特征深度学习的手写数字识别.CPCC2018",
          "康志恒, 吴同茂, 李柠, 甘中学, 基于 LabVIEW 和 moRIO 的磁悬浮综合实验平台设计.CPCC2018",
          "宋娜,邹卫军, 李柠, 甘中学. 激光武器跟踪平台的视频传输及同步显示软件设计.CPCC2018",
@@ -123,6 +130,10 @@
     {
       "category": "Patent & Software Copyright",
       "items": [
+         "（专利）康志恒，李柠。三维数据的处理方法、系统及设备。申请时间：2019.08.29，公开号：CN110516751A",
+         "（专利）徐金玉，李柠。一种风功率短期多步预测方法及装置。申请时间：2019.08.08，公开号：CN 110378541 A",
+         "（专利）宋娜，李柠，卞一鸣。风机关键部件状态监测方法及装置、存储介质和终端。申请时间：2019.07.12，公开号：CN 110362048 A",
+         "（专利）张静，李柠，宋娜，卞一鸣。发电机后轴承温度故障预测的方法、系统、存储器及控制器。申请时间：2019.05.15，公开号：CN 110135064 A ",
          "（专利）王锡磊，李柠。流化催化裂化中催化剂积碳测量方法、系统、介质及设备。申请时间：2018.05.18，公开号：CN108647485A",
          "（专利）杨晶，李柠。风电机组整机脆弱性分析与故障排序方法及电子终端。申请时间：2018.01.30，公开号：CN108074045A",
          "（专利）谈加杰，徐金玉，康志恒，宋娜，李柠，李恒涛。一种基于特征识别的教学辅助大数据智能分析方法。申请时间：2018.02.02，公开号CN108268854A",

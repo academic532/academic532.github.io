@@ -2,6 +2,14 @@
   "usage": "index file of gallery page",
   "entry": [
     {
+      "place": "Shanghai",
+      "date": "2020-12-21",
+      "folder": "2020shanghai_electric",
+      "pics": [
+        "1.jpg"
+      ]
+    },
+    {
       "place": "Shanghai(Industrial Internet Algorithm Competition of WAIC2020)",
       "date": "2020-9-16",
       "folder": "2020waic",

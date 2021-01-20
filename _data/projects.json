@@ -2,6 +2,43 @@
   "usage": "index of lab projects",
   "entry": [
     {
+      "category":"博士后招聘启事",
+      "items":[
+        "<center><h2>上海交通大学李柠教授课题组博士后招聘启事</h2><center>",
+        "<h3>课题组简介</h3>",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;李柠教授课题组隶属于上海交通大学电子信息与电气工程学院自动化系自动化研究所。课题组以国家重大战略需求与前沿基础理论为目标导向，承担国家自然科学基金、科技部重点研发项目、重点企业开发创新等项目，主要开展包括分布式优化、健康管理与故障诊断、机器人控制、计算机视觉、深度学习与强化学习等理论与实际工业应用的研究。",
+        "<h3>一、招聘条件</h3>",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1、拥护中国共产党领导。身体思想健康，具有团队合作精神，对实验室研究方向具有浓厚兴趣，年龄在35周岁以下。",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2、国内外知名高校或研究机构取得相关专业博士学位，外语水平良好。",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3、在相关领域期刊与会议上发表高水平研究论文，对本领域基础知识与国际最新研究进展有良好的把握与思路。",
+        "<h3>二、岗位描述</h3>",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;岗位1：控制与优化算法研究（e.g. 多智能体，动态规划）",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;岗位2：工业过程的故障诊断技术",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;岗位3：机器人技术（e.g. 机器视觉，优化与控制）",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;岗位4：大数据分析，模式识别与图像处理",
+        "<h3>三、岗位职责</h3>",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 积极参与课题组或独立承担研究项目；",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 发表高水平学术论文；",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 独立/协助申报各类科研项目；",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 协助指导本科生/研究生工作和实验室日常管理。",
+        "<h3>四、岗位待遇</h3>",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.享受上海交通大学博士后福利待遇（<a href='http://postd.sjtu.edu.cn/'>http://postd.sjtu.edu.cn/</a>），年薪不少于24万元（含五险一金及租房补贴）；获上海市超级博后资助者年薪不少于35万元；特别优秀者薪资一事一议。",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.享受上海交通大学博士后住房补贴或申请博士后公寓。",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 鼓励和支持博士后在站期间申报国家和省市级博士后人才项目和研究项目，获资助者就高享受相关待遇。",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 按照上海市和上海交通大学博士后管理政策办理有关落户事宜，享受社会保险、公积金等福利待遇；博士后出站留上海工作，配偶及子女可随迁落户。",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. 根据学校最新政策，鼓励博士后长期稳定工作（2-3年），优秀博士后出站，满足我校长聘教轨条件者，可直接申请应聘长聘教轨教职。",
+        "<h3>五、材料提供</h3>",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 个人简历（简介，学习工作经历，发表论文，参与项目，学术计划）与博士学历学位身份证扫描件",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 三篇代表性论文或著作以及其他可以证明本人研究能力的相关材料",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 两封领域内专家推荐信（附联系方式）",
+        "<h3>六、联系方式</h3>",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;实验室主页：<a href='https://ning.sjtu.edu.cn'>https://ning.sjtu.edu.cn</a>",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系人：王老师",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E- mail: jundawang@sjtu.edu.cn",
+        "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址：上海闵行区东川路800号上海交通大学电院自动化系"
+      ]
+    },
+    {
       "category":"科研奖励",
       "items":[
         "2016年CAA自然科学奖一等奖：网络化大系统的分布式预测控制理论与方法。 李少远，郑毅，李德伟，李柠，席裕庚",

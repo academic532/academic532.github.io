@@ -2,6 +2,10 @@
   "usage": "index file of news",
   "entry": [
     {
+      "name": "博士后招聘启事",
+      "link": "https://ning.sjtu.edu.cn/research/",
+    },
+    {
       "name": "First Prize of Industrial Internet Algorithm Competition in WAIC2020",
       "link": "https://mp.weixin.qq.com/s/wkmaszu948zmP8Nz3D2Krw"
     }, 

@@ -5,7 +5,6 @@
       "category": "Journal Papers",
       "items": [
          "Dewen Li, Ning Li, Frank Lewis. Projection-free Distributed Optimization with Nonconvex Local Objective Functions and Resource Allocation Constraint. IEEE Transactions on Control of Network Systems, 2020.",
-         "Yiming Bian, Linghua Zhuang, Ning Li. Modeling and analysis of lithium-ion batteries for vehicles[J]. 控制工程. 2020-03",
          "Jiang N, Hu X, Li N. Graphical temporal semi-supervised deep learning–based principal fault localization in wind turbine systems[J]. Proceedings of the Institution of Mechanical Engineers, Part I: Journal of Systems and Control Engineering. 2020: 0959651819901034.",
          "S. Kleff and N. Li. Robust Motion Planning in Dynamic Environments Based on Sampled-Data Hamilton-Jacobi Reachability. Robotica, 2020, 38(12):2151-2172.",
          "Jiang N, Li N. A wind turbine frequent principal fault detection and localization approach with imbalanced data using an improved synthetic oversampling technique[J]. International Journal of Electrical Power & Energy Systems, 126: 106595.",
@@ -40,6 +39,7 @@
          "Zhao M, Li N, Li S Y. Min-max model predictive control for constrained nonlinear systems via multiple LPV embeddings[J]. Science in China Series F: Information Sciences, 2009, 52(7): 1129-1135.(SCI)",
          "Min XU, Ning LI, Shaoyuan LI. A wide-range operating fuzzy control algorithm via receding horizon optimization, Journal of Intelligent and Fuzzy Systems, v 17, n 5, 2006, p 493-501, (SCI/EI 065110319505)",
 
+         "Yiming Bian, Linghua Zhuang, Ning Li. Modeling and analysis of lithium-ion batteries for vehicles[J]. 控制工程. 2020-03",
          "张静，李柠，李少远，黄猛. 基于数据的风电机组发电机健康状况评估[J]. 信息与控制. 2018",
          "许裕栗，陈哲，李柠，甘中学. 变速变桨风力机系统的动态矩阵控制. 水电能源科学. 2018",
          "许裕栗，张静，李柠，甘中学，基于数据挖掘的锅炉在线运行状态监测. 热能动力工程. 2018",

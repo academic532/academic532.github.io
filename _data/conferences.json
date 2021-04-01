@@ -6,6 +6,10 @@
       "link": "http://www.ifac2020.org/"
     },
     {
+      "name": "ICONIP 2019(The 26th International Conference on Neural Information Processing of the Asia-Pacific Neural Network Society)",
+      "link": "http://ajiips.com.au/iconip2019/"
+    },
+    {
       "name": "IEEE CDC 2018(The 57th IEEE Conference on Decision and Control)",
       "link": "https://cdc2018.ieeecss.org/"
     },
@@ -14,12 +18,10 @@
       "link": "http://acc2018.a2c2.org/"
     },
     {
-      "name": "CCC 2018(The 37th Chinese Control Conference)",
-      "link": "http://ccc2018.cug.edu.cn/"
+      "name": "CCC 2018(The 37th Chinese Control Conference)"
     },
     {
-      "name": "CPCC 2018(The 29th Chinese Process Control Conference)",
-      "link": "http://2018.cn-tcpc.org/"
+      "name": "CPCC 2018(The 29th Chinese Process Control Conference)"
     }
   ]
 }

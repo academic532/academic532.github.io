@@ -82,6 +82,12 @@
             "Research": "Object Detection"
           }
         },
+        
+      ]
+    },
+    {
+      "category": "Alumni",
+      "items": [
         {
           "name": "Xiangzhi Hu（胡祥志）",
           "avatar": "huxiangzhi.png",
@@ -109,12 +115,7 @@
           "misc": {
             "Research": "undetermined"
           }
-        }
-      ]
-    },
-    {
-      "category": "Alumni",
-      "items": [
+        },
         {
           "name": "Na Song（宋娜）",
           "avatar": "songna.png",

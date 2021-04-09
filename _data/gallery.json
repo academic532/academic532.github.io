@@ -3,6 +3,16 @@
   "entry": [
     {
       "place": "Shanghai",
+      "date": "2020-11-1",
+      "folder": "2020springout",
+      "pics": [
+        "2020spring1.jpeg",
+        "2020spring2.jpeg",
+        "2020spring3.jpeg"
+      ]
+    },
+    {
+      "place": "Shanghai",
       "date": "2020-12-21",
       "folder": "2020shanghai_electric",
       "pics": [

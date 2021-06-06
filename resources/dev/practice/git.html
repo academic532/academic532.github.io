@@ -1,0 +1,574 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Git 版本管理 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-yahei/yahei.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="workflow.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://ning.sjtu.edu.cn" target="_blank" class="custom-link">Academic532</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../getstarted/">
+            
+                <a href="../getstarted/">
+            
+                    
+                    准备篇
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../getstarted/windows.html">
+            
+                <a href="../getstarted/windows.html">
+            
+                    
+                    Windows 环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../getstarted/osx.html">
+            
+                <a href="../getstarted/osx.html">
+            
+                    
+                    OS X 环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../getstarted-env/linux.html">
+            
+                <a href="../getstarted-env/linux.html">
+            
+                    
+                    Linux 环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../getstarted/wsl.html">
+            
+                <a href="../getstarted/wsl.html">
+            
+                    
+                    WSL 环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    实战篇
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1" data-path="git.html">
+            
+                <a href="git.html">
+            
+                    
+                    Git 版本管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="workflow.html">
+            
+                <a href="workflow.html">
+            
+                    
+                    典型操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="src-arc.html">
+            
+                <a href="src-arc.html">
+            
+                    
+                    源码框架解释
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="code.html">
+            
+                <a href="code.html">
+            
+                    
+                    开发规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="deploy.html">
+            
+                <a href="deploy.html">
+            
+                    
+                    网站部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../render/">
+            
+                <a href="../render/">
+            
+                    
+                    页面模版渲染
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../render/home.html">
+            
+                <a href="../render/home.html">
+            
+                    
+                    首页维护
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../render/members.html">
+            
+                <a href="../render/members.html">
+            
+                    
+                    Members维护
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../render/gallery.html">
+            
+                <a href="../render/gallery.html">
+            
+                    
+                    Gallery维护
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../render/research.html">
+            
+                <a href="../render/research.html">
+            
+                    
+                    Research维护
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../render/publications.html">
+            
+                <a href="../render/publications.html">
+            
+                    
+                    Publications维护
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../render/impl.html">
+            
+                <a href="../render/impl.html">
+            
+                    
+                    实现细节
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../tools.html">
+            
+                <a href="../tools.html">
+            
+                    
+                    插件清单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../todo.html">
+            
+                <a href="../todo.html">
+            
+                    
+                    未来工作
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Git 版本管理</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="git-&#x7248;&#x672C;&#x7BA1;&#x7406;"><a name="git-&#x7248;&#x672C;&#x7BA1;&#x7406;" class="plugin-anchor" href="#git-&#x7248;&#x672C;&#x7BA1;&#x7406;"><i class="fa fa-link" aria-hidden="true"></i></a>Git &#x7248;&#x672C;&#x7BA1;&#x7406;</h2>
+<p><a href="https://git-scm.com/" target="_blank">Git</a> &#x662F;&#x76EE;&#x524D;&#x6700;&#x6D41;&#x884C;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#xFF0C;&#x8D8A;&#x6765;&#x8D8A;&#x591A;&#x7684;&#x5F00;&#x6E90;&#x9879;&#x76EE;&#x4F7F;&#x7528; Git &#x4F5C;&#x4E3A;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#xFF0C;&#x5F53;&#x524D;&#x6D41;&#x884C;&#x7684;&#x4EE3;&#x7801;&#x6258;&#x7BA1;&#x7F51;&#x7AD9; <a href="https://github.com/" target="_blank">Github</a> &#x4E5F;&#x4F7F;&#x7528; Git &#x4F5C;&#x4E3A;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#x3002;&#x4F7F;&#x7528; Git &#x7248;&#x672C;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#x7684;&#x7406;&#x7531;&#xFF1A;</p>
+<ol>
+<li>&#x4EE3;&#x7801;&#x7684;&#x7248;&#x672C;&#x8FED;&#x4EE3;&#x66F4;&#x52A0;&#x89C4;&#x8303;&#xFF0C;&#x4EE3;&#x7801;&#x7BA1;&#x7406;&#x66F4;&#x65B9;&#x4FBF;</li>
+<li>&#x4FBF;&#x4E8E;&#x591A;&#x4E2A;&#x5F00;&#x53D1;&#x8005;&#x534F;&#x4F5C;</li>
+<li>&#x914D;&#x7F6E;&#x6301;&#x7EED;&#x96C6;&#x6210;&#x670D;&#x52A1;&#x5B9E;&#x73B0;&#x81EA;&#x52A8;&#x5316;&#x90E8;&#x7F72;&#x548C;&#x4EA4;&#x4ED8;</li>
+</ol>
+<h3 id="git-&#x6559;&#x7A0B;"><a name="git-&#x6559;&#x7A0B;" class="plugin-anchor" href="#git-&#x6559;&#x7A0B;"><i class="fa fa-link" aria-hidden="true"></i></a>Git &#x6559;&#x7A0B;</h3>
+<p>&#x5728;&#x5F00;&#x59CB;&#x4E4B;&#x524D;&#xFF0C;&#x9996;&#x5148;&#x4E86;&#x89E3;&#x4EC0;&#x4E48;&#x662F; Git, &#x4EE5;&#x53CA; Git &#x7684;&#x57FA;&#x7840;&#x4F7F;&#x7528;&#xFF0C;&#x9996;&#x5148;&#x9605;&#x8BFB;&#x4EE5;&#x4E0B;&#x4E24;&#x4EFD;&#x7B80;&#x77ED;&#x7684;&#x6559;&#x7A0B;&#xFF1A;</p>
+<ol>
+<li><a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank">git - &#x7B80;&#x660E;&#x6559;&#x7A0B;</a></li>
+<li><a href="http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html" target="_blank">&#x5E38;&#x7528; Git &#x547D;&#x4EE4;&#x6E05;&#x5355;</a></li>
+</ol>
+<p>1&#x4E2D;&#x4ECB;&#x7ECD;&#x4E86; git &#x7684;&#x5B89;&#x88C5;&#x548C;&#x57FA;&#x672C;&#x64CD;&#x4F5C;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;2&#x662F;&#x4E00;&#x4EFD;&#x6BD4;&#x8F83;&#x5B8C;&#x5907;&#x7684;git&#x6307;&#x4EE4;&#x6E05;&#x5355;&#x3002;</p>
+<h3 id="github-&#x76F8;&#x5173;&#x914D;&#x7F6E;"><a name="github-&#x76F8;&#x5173;&#x914D;&#x7F6E;" class="plugin-anchor" href="#github-&#x76F8;&#x5173;&#x914D;&#x7F6E;"><i class="fa fa-link" aria-hidden="true"></i></a>Github &#x76F8;&#x5173;&#x914D;&#x7F6E;</h3>
+<p>&#x7F51;&#x7AD9;&#x4EE3;&#x7801;&#x6258;&#x7BA1;&#x5728; <a href="https://github.com/academic532/academic532.github.io" target="_blank">academic532/academic532.github.io</a>&#xFF0C;&#x5173;&#x8054;&#x4E86; Github Pages &#x670D;&#x52A1;&#xFF0C;&#x8BBF;&#x95EE; <a href="https://academic532.github.io/" target="_blank">academic532.github.io</a> &#x53EF;&#x4EE5;&#x67E5;&#x770B;&#x7F51;&#x9875;&#x3002;&#x4EFB;&#x4F55;&#x4EBA;&#x90FD;&#x53EF;&#x4EE5;&#x67E5;&#x770B; Github &#x4E0A;&#x7684;&#x5F00;&#x6E90;&#x4ED3;&#x5E93;&#xFF0C;&#x4F46;&#x662F;&#x53EA;&#x6709;&#x7ECF;&#x8FC7;&#x6388;&#x6743;&#x7684;&#x5F00;&#x53D1;&#x8005;&#x624D;&#x80FD;&#x5BF9;&#x4ED3;&#x5E93;&#x5185;&#x7684;&#x6E90;&#x4EE3;&#x7801;&#x8FDB;&#x884C;&#x4FEE;&#x6539;&#x3002;Git &#x4F7F;&#x7528; <a href="http://www.ruanyifeng.com/blog/2011/12/ssh_remote_login.html" target="_blank">SSH &#x534F;&#x8BAE;</a> &#x6765;&#x5B8C;&#x6210;&#x8FD9;&#x4E2A;&#x6388;&#x6743;&#x8FC7;&#x7A0B;&#x7684;&#x5B89;&#x5168;&#x9A8C;&#x8BC1;&#x3002;</p>
+<p>&#x542F;&#x52A8;&#x7EC8;&#x7AEF;&#xFF0C;&#x8F93;&#x5165;&#x4EE5;&#x4E0B;&#x6307;&#x4EE4;&#x751F;&#x6210;&#x5BC6;&#x94A5;&#x5BF9;</p>
+<pre><code class="lang-bash">ssh-keygen
+</code></pre>
+<p>&#x8FDE;&#x7EED;&#x4E09;&#x6B21;&#x56DE;&#x8F66;&#x5B8C;&#x6210;&#x5BC6;&#x94A5;&#x5BF9;&#x751F;&#x6210;&#x3002;&#x751F;&#x6210;&#x7684;&#x5BC6;&#x94A5;&#x5BF9;&#x5728;&#x7528;&#x6237;&#x76EE;&#x5F55;&#x7684; <code>.ssh</code>&#x6587;&#x4EF6;&#x5939;&#x91CC;&#x9762;&#x3002;&#x5C06;&#x516C;&#x94A5;&#x5185;&#x5BB9;&#x6253;&#x5370;&#x5230;&#x7EC8;&#x7AEF;</p>
+<pre><code>cat ~/.ssh/id_rsa.pub
+</code></pre><p>&#x4F7F;&#x7528;&#x9F20;&#x6807;&#x9009;&#x62E9;&#x516C;&#x94A5;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x590D;&#x5236;&#x5230;&#x7C98;&#x8D34;&#x677F;&#x4EE5;&#x5907;&#x540E;&#x7528;&#x3002;</p>
+<p>&#x8BBF;&#x95EE; <a href="https://github.com" target="_blank">Github</a> &#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x8D26;&#x53F7;&#x3002;&#x82E5;&#x8981;&#x83B7;&#x53D6;&#x5BF9;&#x7F51;&#x7AD9;&#x4EE3;&#x7801;&#x4ED3;&#x5E93;&#x7684;&#x4FEE;&#x6539;&#x6743;&#x9650;&#xFF0C;&#x6709;&#x4E24;&#x79CD;&#x65B9;&#x6CD5;&#xFF1A;</p>
+<ol>
+<li>&#x5C06;&#x516C;&#x94A5;&#x6DFB;&#x52A0;&#x5230;<a href="https://github.com/academic532/academic532.github.io" target="_blank">academic532/academic532.github.io</a>&#x9879;&#x76EE; Settings &#x83DC;&#x5355;&#x4E2D;&#x7684; Deploy Keys &#x5185;&#xFF1B;</li>
+<li>&#x5C06;&#x516C;&#x94A5;&#x6DFB;&#x52A0;&#x5230;Github&#x8D26;&#x6237;&#x7684;<a href="https://github.com/settings/keys" target="_blank">SSH Keys</a>&#x4E2D;&#xFF0C;&#x7136;&#x540E;&#x901A;&#x8FC7;&#x9879;&#x76EE; Settings &#x83DC;&#x5355;&#x4E2D;&#x7684; Collaborators &#x6DFB;&#x52A0;&#x81EA;&#x5DF1;&#x7684; Github &#x8D26;&#x6237;&#x3002;</li>
+</ol>
+<blockquote>
+<p><strong>&#x6CE8;&#x610F;</strong>&#xFF1A;&#x82E5;&#x901A;&#x8FC7;Deploy Keys&#x65B9;&#x6CD5;&#x6DFB;&#x52A0;&#xFF0C;&#x9700;&#x8981;&#x52FE;&#x9009; <strong>Allow write access</strong> &#x9009;&#x9879;&#x3002;</p>
+</blockquote>
+<p>&#x901A;&#x8FC7;&#x4EE5;&#x4E0A;&#x4EFB;&#x610F;&#x4E00;&#x79CD;&#x65B9;&#x6CD5;&#x914D;&#x7F6E;&#x6743;&#x9650;&#x540E;&#xFF0C;&#x5728;&#x7EC8;&#x7AEF;&#x4E2D;&#x8F93;&#x5165;</p>
+<pre><code class="lang-bash">git config --global user.name <span class="hljs-string">&quot;[your-name]&quot;</span>
+git config --global user.email [your-email]
+</code></pre>
+<p>&#x914D;&#x7F6E;&#x81EA;&#x5DF1;&#x7684;&#x8EAB;&#x4EFD;&#xFF0C;&#x5C06;<code>[your-name]</code> &#x66FF;&#x6362;&#x4E3A;&#x81EA;&#x5DF1;&#x7684;&#x540D;&#x5B57;&#x4EE3;&#x53F7;&#xFF0C;&#x63A8;&#x8350;&#x82F1;&#x6587;&#xFF0C;&#x5C06; <code>[your-email]</code> &#x66FF;&#x6362;&#x4E3A;&#x81EA;&#x5DF1;&#x7684;&#x90AE;&#x7BB1;&#x3002;<strong>&#x8BE5;&#x6B65;&#x64CD;&#x4F5C;&#x4EC5;&#x9700;&#x4E00;&#x6B21;&#x5373;&#x53EF;</strong>&#x3002;</p>
+<p>&#x7136;&#x540E;&#x4F7F;&#x7528;&#x4EE5;&#x4E0B;&#x6307;&#x4EE4;&#x514B;&#x9686;&#x7F51;&#x7AD9;&#x4EE3;&#x7801;&#x5230;&#x672C;&#x5730;</p>
+<pre><code class="lang-bash">git <span class="hljs-built_in">clone</span> --depth=1 --branch=dev git@github.com:academic532/academic532.github.io.git labpage
+</code></pre>
+<p>&#x82E5;&#x914D;&#x7F6E;&#x65E0;&#x8BEF;&#xFF0C;&#x53EF;&#x5C06;&#x7F51;&#x7AD9;&#x6E90;&#x7801;&#x62F7;&#x8D1D;&#x5230; <code>labpage</code> &#x76EE;&#x5F55;&#x4E2D;&#x3002;</p>
+<h3 id="&#x7BA1;&#x7406;&#x54F2;&#x5B66;"><a name="&#x7BA1;&#x7406;&#x54F2;&#x5B66;" class="plugin-anchor" href="#&#x7BA1;&#x7406;&#x54F2;&#x5B66;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7BA1;&#x7406;&#x54F2;&#x5B66;</h3>
+<p>Github Pages &#x670D;&#x52A1;&#x4F1A;&#x6839;&#x636E; <code>master</code> &#x5206;&#x652F;&#x7684;&#x5185;&#x5BB9;&#x5728;&#x540E;&#x53F0;&#x81EA;&#x52A8;&#x4F7F;&#x7528; <code>github-pages</code> &#x5DE5;&#x5177;&#x7F16;&#x8BD1;&#x7F51;&#x9875;&#x6E90;&#x7801;&#xFF0C;&#x7136;&#x540E;&#x5C06;&#x751F;&#x6210;&#x7684;&#x7F51;&#x9875;&#x6E90;&#x7801;(<code>_site</code>) &#x90E8;&#x7F72;&#x5230; <a href="https://academic532.github.io/" target="_blank">academic532.github.io</a>&#x3002;&#x56E0;&#x6B64;&#x6BCF;&#x6B21; <code>master</code> &#x5206;&#x652F;&#x5185;&#x4EE3;&#x7801;&#x7684;&#x66F4;&#x65B0;&#x90FD;&#x4F1A;&#x89E6;&#x53D1; Github Pages &#x670D;&#x52A1;&#x6784;&#x5EFA;&#x7F51;&#x9875;&#x6E90;&#x7801;&#x5E76;&#x90E8;&#x7F72;&#x3002;</p>
+<p>&#x56E0;&#x6B64;&#xFF0C;<code>master</code> &#x5206;&#x4E4B;&#x5185;&#x7684;&#x4EE3;&#x7801;&#x548C;&#x5C55;&#x793A;&#x7ED9;&#x7F51;&#x7AD9;&#x7528;&#x6237;&#x7684;&#x5185;&#x5BB9;&#x76F4;&#x63A5;&#x5173;&#x8054;&#xFF0C;&#x4E3A;&#x4E86;&#x4FDD;&#x6301;&#x89C4;&#x8303;&#x548C;&#x907F;&#x9519;&#xFF0C;&#x4F5C;&#x51FA;&#x89C4;&#x5B9A;&#xFF0C;<code>master</code> &#x5206;&#x652F;&#x7684;&#x5185;&#x5BB9;&#x7684;&#x6539;&#x52A8;&#x5FC5;&#x987B;&#x5728;&#x7ECF;&#x8FC7;&#x6D4B;&#x8BD5;&#x540E;&#x624D;&#x80FD;&#x751F;&#x6548;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x6DFB;&#x52A0;&#x4E86;&#x4E00;&#x4E2A;&#x5206;&#x652F; <code>dev</code>&#xFF0C;&#x6240;&#x6709;&#x5BF9;&#x7F51;&#x7AD9;&#x6E90;&#x4EE3;&#x7801;&#x7684;&#x6539;&#x52A8;&#xFF0C;&#x90FD;&#x5728; <code>dev</code> &#x5206;&#x652F;&#x4E0A;&#x6D4B;&#x8BD5;&#x540E;&#x518D;&#x5408;&#x5E76;&#x8FDB; <code>master</code> &#x5206;&#x652F;&#xFF0C;&#x5E76;&#x4E14;&#x8FDB;&#x4E00;&#x6B65;&#x89C4;&#x5B9A; <code>master</code> &#x5206;&#x652F;&#x4E0D;&#x80FD;&#x4EBA;&#x4E3A;&#x5730;&#x4FEE;&#x6539;&#xFF0C;&#x7F51;&#x7AD9;&#x5F00;&#x53D1;&#x8005;&#x53EA;&#x80FD;&#x5728; <code>dev</code> &#x5206;&#x652F;&#x4E0A;&#x6539;&#x52A8;&#x4EE3;&#x7801;&#x548C;&#x63D0;&#x4EA4;&#x81EA;&#x5DF1;&#x7684;&#x4FEE;&#x6539;&#x3002;</p>
+<p>&#x6BCF;&#x6B21;&#x63A8;&#x9001;&#x5230; <code>dev</code> &#x5206;&#x652F;&#x7684;&#x63D0;&#x4EA4;&#xFF0C;&#x90FD;&#x4F1A;&#x81EA;&#x52A8;&#x89E6;&#x53D1; <a href="https://travis-ci.org" target="_blank">Travis CI</a> &#x6301;&#x7EED;&#x96C6;&#x6210;&#x670D;&#x52A1;&#x7684;&#x81EA;&#x52A8;&#x7F16;&#x8BD1;&#xFF0C;&#x82E5;&#x7F16;&#x8BD1;&#x6CA1;&#x6709;&#x62A5;&#x9519;&#xFF0C;&#x5219;&#x4F1A;&#x81EA;&#x52A8;&#x5730;&#x63A8;&#x9001;&#x5230; <code>master</code> &#x5206;&#x652F;&#xFF0C;&#x4ECE;&#x800C;&#x5B8C;&#x6210;&#x5BF9;&#x7F51;&#x7AD9;&#x5185;&#x5BB9;&#x7684;&#x4FEE;&#x6539;&#x3002;&#x82E5;&#x7F16;&#x8BD1;&#x62A5;&#x9519;&#xFF0C;&#x8BE5;&#x6B21;&#x4FEE;&#x6539;&#x5C06;&#x4E0D;&#x4F1A;&#x63A8;&#x9001;&#x5230; <code>master</code> &#x5206;&#x652F;&#x3002;Travis CI &#x7AEF;&#x7684;&#x914D;&#x7F6E;&#x7EC6;&#x8282;&#xFF0C;&#x53C2;&#x8003;<a href="https://oncemore2020.github.io/blog/travis-deploy/" target="_blank">Travis CI Push &#x6743;&#x9650;&#x914D;&#x7F6E;</a>&#xFF0C;&#x4E00;&#x822C;&#x7F51;&#x7AD9;&#x5F00;&#x53D1;&#x8005;&#x53EF;&#x4EE5;&#x7565;&#x8FC7;&#x8BE5;&#x90E8;&#x5206;&#x3002;</p>
+<h3 id="&#x53C2;&#x8003;&#x6587;&#x6863;"><a name="&#x53C2;&#x8003;&#x6587;&#x6863;" class="plugin-anchor" href="#&#x53C2;&#x8003;&#x6587;&#x6863;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x53C2;&#x8003;&#x6587;&#x6863;</h3>
+<ol>
+<li><a href="http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html" target="_blank">&#x6301;&#x7EED;&#x96C6;&#x6210;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;</a></li>
+<li><a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank">git - &#x7B80;&#x660E;&#x6559;&#x7A0B;</a></li>
+<li><a href="http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html" target="_blank">&#x5E38;&#x7528; Git &#x547D;&#x4EE4;&#x6E05;&#x5355;</a></li>
+<li><a href="https://oncemore2020.github.io/blog/travis-deploy/" target="_blank">Travis CI Push &#x6743;&#x9650;&#x914D;&#x7F6E;</a></li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 实战篇">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="workflow.html" class="navigation navigation-next " aria-label="Next page: 典型操作">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Git 版本管理","level":"1.3.1","depth":2,"next":{"title":"典型操作","level":"1.3.2","depth":2,"path":"practice/workflow.md","ref":"practice/workflow.md","articles":[]},"previous":{"title":"实战篇","level":"1.3","depth":1,"path":"practice/README.md","ref":"practice/README.md","articles":[{"title":"Git 版本管理","level":"1.3.1","depth":2,"path":"practice/git.md","ref":"practice/git.md","articles":[]},{"title":"典型操作","level":"1.3.2","depth":2,"path":"practice/workflow.md","ref":"practice/workflow.md","articles":[]},{"title":"源码框架解释","level":"1.3.3","depth":2,"path":"practice/src-arc.md","ref":"practice/src-arc.md","articles":[]},{"title":"开发规范","level":"1.3.4","depth":2,"path":"practice/code.md","ref":"practice/code.md","articles":[]},{"title":"网站部署","level":"1.3.5","depth":2,"path":"practice/deploy.md","ref":"practice/deploy.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["yahei","anchors"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"yahei":{},"anchors":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"title":"网站开发指南"},"links":{"sidebar":{"Academic532":"https://ning.sjtu.edu.cn"},"gitbook":false,"sharing":{"all":false,"vk":false,"facebook":false,"google":false,"twitter":false,"weibo":true}},"gitbook":"*"},"file":{"path":"practice/git.md","mtime":"2021-06-06T05:43:22.486Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-06-06T05:44:43.080Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

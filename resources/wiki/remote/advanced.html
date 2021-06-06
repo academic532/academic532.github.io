@@ -1,0 +1,426 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Advanced Usage · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-yahei/yahei.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../python/" />
+    
+    
+    <link rel="prev" href="zsh.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://academic532.github.io" target="_blank" class="custom-link">Academic532</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Remote Server
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="get_started.html">
+            
+                <a href="get_started.html">
+            
+                    
+                    Get Started
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="zsh.html">
+            
+                <a href="zsh.html">
+            
+                    
+                    User Friendly Shell
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3" data-path="advanced.html">
+            
+                <a href="advanced.html">
+            
+                    
+                    Advanced Usage
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../python/">
+            
+                <a href="../python/">
+            
+                    
+                    Python Kit
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../python/conda.html">
+            
+                <a href="../python/conda.html">
+            
+                    
+                    Anaconda
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../services/">
+            
+                <a href="../services/">
+            
+                    
+                    Services
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../services/filestore.html">
+            
+                <a href="../services/filestore.html">
+            
+                    
+                    File Storage
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../tutorials/">
+            
+                <a href="../tutorials/">
+            
+                    
+                    Tutorials
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../tutorials/software_patent.html">
+            
+                <a href="../tutorials/software_patent.html">
+            
+                    
+                    软件著作权指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Advanced Usage</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="advanced-usage"><a name="advanced-usage" class="plugin-anchor" href="#advanced-usage"><i class="fa fa-link" aria-hidden="true"></i></a>Advanced Usage</h1>
+<h2 id="auto-login"><a name="auto-login" class="plugin-anchor" href="#auto-login"><i class="fa fa-link" aria-hidden="true"></i></a>Auto Login</h2>
+<h3 id="mechanism"><a name="mechanism" class="plugin-anchor" href="#mechanism"><i class="fa fa-link" aria-hidden="true"></i></a>Mechanism</h3>
+<p>SSH uses <a href="https://en.wikipedia.org/wiki/Public-key_cryptography" target="_blank">Public-key cryptography</a> for authentication.</p>
+<blockquote>
+<p>Public key cryptography, or asymmetric cryptography, is any cryptographic system that uses pairs of keys: public keys which may be disseminated widely, and private keys which are known only to the owner. This accomplishes two functions: authentication, which is when the public key is used to verify that a holder of the paired private key sent the message, and encryption, whereby only the holder of the paired private key can decrypt the message encrypted with the public key.</p>
+</blockquote>
+<p>SSH public-key authentication relies on asymmetric cryptographic algorithms that generate a pair of separate keys (i.e., a key pair), one &quot;private&quot; and the other &quot;public&quot;. You keep the private key a secret and store it on the computer you use to connect to the remote system. Conceivably, you can share the public key with anyone without compromising the private key.</p>
+<p>Therefore we can generate a <strong>key pair</strong> and store the <strong>public key</strong> to the remote server, the login process can be authenticated as below:</p>
+<ol>
+<li>ssh client sends a login request to the remote server</li>
+<li>the server responds a random string to the client</li>
+<li>the client encrypts the random string with the private key, then sends it to the server</li>
+<li>the server uses the public key to verify the string.</li>
+</ol>
+<p>Actually, the public key should be stored at <code>~/.ssh/authorized_keys</code> of your home folder.</p>
+<h3 id="key-generation"><a name="key-generation" class="plugin-anchor" href="#key-generation"><i class="fa fa-link" aria-hidden="true"></i></a>Key Generation</h3>
+<p>OS X and Linux users can use <code>ssh-keygen</code> command to generate key pair, which by default are stored in <code>~/.ssh/</code> folder. Windows users can use <a href="https://the.earth.li/~sgtatham/putty/latest/w64/puttygen.exe" target="_blank">PuttyGen</a> or other available tools to genrate the key pair. Note that the file with <code>.pub</code> postfix is the public key, and the other one is the private key, <strong>DO NOT</strong> share private key with anyone.</p>
+<h3 id="copy-public-key"><a name="copy-public-key" class="plugin-anchor" href="#copy-public-key"><i class="fa fa-link" aria-hidden="true"></i></a>Copy Public Key</h3>
+<p>Use <code>scp</code> command or graphical tools such as WinSCP to copy the public key file(<code>~/.ssh/id_rsa.pub</code>) to your home folder, then log into your account and excute:</p>
+<pre><code class="lang-bash">cat id_rsa.pub &gt;&gt; ~/.ssh/authorized_keys
+rm id_rsa.pub
+</code></pre>
+<p>then exit the session.</p>
+<p>Windows users should also set auth key profiles in putty, check <a href="https://kb.iu.edu/d/aews" target="_blank">How do I set up SSH public-key authentication to connect to a remote system?</a> for more details.</p>
+<p>Next time you login, the authentication process is automatically done by the public key cryptography.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="zsh.html" class="navigation navigation-prev " aria-label="Previous page: User Friendly Shell">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../python/" class="navigation navigation-next " aria-label="Next page: Python Kit">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Advanced Usage","level":"1.2.3","depth":2,"next":{"title":"Python Kit","level":"1.3","depth":1,"path":"python/README.md","ref":"python/README.md","articles":[{"title":"Anaconda","level":"1.3.1","depth":2,"path":"python/conda.md","ref":"python/conda.md","articles":[]}]},"previous":{"title":"User Friendly Shell","level":"1.2.2","depth":2,"path":"remote/zsh.md","ref":"remote/zsh.md","articles":[]},"dir":"ltr"},"config":{"plugins":["yahei","anchors"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"yahei":{},"anchors":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"title":"Lab Wiki"},"links":{"sidebar":{"Academic532":"https://academic532.github.io"},"gitbook":false,"sharing":{"all":false,"vk":false,"facebook":false,"google":false,"twitter":false,"weibo":true}},"gitbook":"*"},"file":{"path":"remote/advanced.md","mtime":"2021-06-06T05:43:22.494Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-06-06T05:44:52.249Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

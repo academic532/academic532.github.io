@@ -75,6 +75,30 @@
           "description": "<p>Remaining useful life (RUL) refers to the number of time(rounds) left before machine breaks down, which is a main research topic in prognostics and health management (PHM). We aim at extracting degrading related features from original signals to estimate RUL. Both data-driven and model-based methods are adopted, including deep learning, ensemble learning, Kalman filters and so on. Efforts are made to do RUL estimation on a variety of industrial components, such as roller bearings, cutting tools, lithium-ion batteries, aircraft engines and so on.</p>"
         }
       ]
+    },
+    {"name": "Robot",
+      "link": "",
+      "figures": [],
+      "children": [
+        {
+          "name": "Robots and ROS",
+          "link": "",
+          "figures": [],
+          "description": "<p>ROS (Robot Operating System) is an open-source, meta-operating system for the robot. It provides the services as an operating system, including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management. It also provides tools and libraries for obtaining, building, writing, and running code across multiple computers. Our researches on Robots are mainly built with ROS, which helps us put our main focus on Algorithm Design.</p>  <p>Case study: ROS with AGV, ROS with Camera, ROS with Reinforcement Learning</p>"
+        },
+        {
+          "name": "Navigation and Reinforcement Learning",
+          "link": "",
+          "figures": ["NaRL.jpg","NaRL2.jpg"],
+          "description": "<p>Navigation is a field of study that focuses on the process of monitoring and controlling the movement of a craft or vehicle from one place to another. The field of navigation includes four general categories: land navigation, marine navigation, aeronautic navigation, and space navigation. We put our main focus on Navigation of the AGV(Automated Guided Vehicle) with the help of Reinforcement Learning, where we use the output of sensors(Lidar, Camera…) as the state, and learn a policy that maximizes the Reward. Such reward is used to guide the movement of the AGV.</p>  <p>Keywords: Navigation, Reinforcement Learning, AGV</p>"
+        },
+        {
+          "name": "Autonomous exploration and mapping",
+          "link": "",
+          "figures": ["AEaM1.png","AEaM2.png"],
+          "description": "<p>Autonomous exploration and mapping is a very important ability for mobile robots, whose goal is to enable mobile robots to explore as many areas in the unknown environment as possible, build maps of the surrounding environment, and avoid collision with obstacles in the environment. Some traditional mobile robot exploration methods, such as frontier-based and information-based methods, need to rely on complex control decisions and manually extracted environmental features and are weak to generalize to unknown environments. DRL(deep reinforcement learning), our main focus, combines the powerful feature extraction ability of the artificial neural network and the powerful decision-making ability of traditional RL technology. Our research applies DRL to the autonomous exploration and mapping task of the mobile robot and combines multiple sensor data to control the motion of the mobile robot. We train the DRL algorithm in the simulation environment and deploy it to the real mobile robot using ROS, hoping to solve the problems from the simulation environment to the real world(sim2real).</p>  <p>Keywords: Exploration, Mapping, Reinforcement Learning, AGV</p>"
+         }
+      ]
     }
   ]
 }

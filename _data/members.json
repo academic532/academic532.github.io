@@ -22,20 +22,6 @@
       "category": "Ph.D Students",
       "items": [
         {
-          "name": "Na Jiang（姜娜）",
-          "avatar": "jiangna.png",
-          "misc": {
-            "Research": "Machine Learning, Deep Learning, Big Data Mining and Knowledge Discovery"
-          }
-        },
-        {
-          "name": "Dewen Li（黎德文）",
-          "avatar": "lidewen.png",
-          "misc": {
-            "Research": "Model Predictive Control & Reinforcement Learning"
-          }
-        },
-        {
           "name": "Zhe Chen（陈哲）",
           "avatar": "chenzhe.png",
           "misc": {
@@ -82,12 +68,32 @@
             "Research": "Object Detection"
           }
         },
-        
+        {
+          "name": "Yuxiao Yang（杨于霄）",
+          "avatar": "yangyuxiao.jpeg",
+          "misc": {
+            "Research": "Natural Language Processing and Knowledge Graph"
+          }
+        }
       ]
     },
     {
       "category": "Alumni",
       "items": [
+        {
+          "name": "Na Jiang（姜娜）",
+          "avatar": "jiangna.png",
+          "misc": {
+            "Research": "Machine Learning, Deep Learning, Big Data Mining and Knowledge Discovery"
+          }
+        },
+        {
+          "name": "Dewen Li（黎德文）",
+          "avatar": "lidewen.png",
+          "misc": {
+            "Research": "Model Predictive Control & Reinforcement Learning"
+          }
+        },
         {
           "name": "Xiangzhi Hu（胡祥志）",
           "avatar": "huxiangzhi.png",

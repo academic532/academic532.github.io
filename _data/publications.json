@@ -4,6 +4,9 @@
     {
       "category": "Journal Papers",
       "items": [
+         "Z. Chen, W. Xue, N. Li, B. Lian, and F. L. Lewis, A Novel Z-Function-Based Completely Model-Free Reinforcement Learning Method to Finite-Horizon Zero-Sum Game of Nonlinear System[J]. Nonlinear Dynamics. DOI:10.1007/s11071-021-07049-z.",
+         "Z. Chen, W. Xue, N. Li, and F. L. Lewis, Two-loop Reinforcement Learning Algorithm for Finite-horizon Optimal Control of Continuous-Time Affine Nonlinear Systems[J]. International Journal of Robust and Nonlinear Control, 2021. DOI:10.1002/rnc.5826.",
+         "Wang J, Zhang J, Jiang N, Song N, Xin J, Li N. Online health assessment and fault prediction for wind turbine generator. Proceedings of the Institution of Mechanical Engineers, Part I: Journal of Systems and Control Engineering. November 2021. doi:10.1177/09596518211056165",
          "D. Li, L. Yu, N. Li and F. L. Lewis. Virtual-Action-Based Coordinated Reinforcement Learning for Distributed Economic Dispatch, in IEEE Transactions on Power Systems, doi: 10.1109/TPWRS.2021.3070161.",
 	 "D. Li, Li and F. Lewis. Projection-Free Distributed Optimization With Nonconvex Local Objective Functions and Resource Allocation Constraint. IEEE Transactions on Control of Network Systems, vol.8, no.1, pp.413-422, March 2021, doi: 10.1109/TCNS.2020.3027787.",
          "Jiang N, Hu X, Li N. Graphical temporal semi-supervised deep learning–based principal fault localization in wind turbine systems[J]. Proceedings of the Institution of Mechanical Engineers, Part I: Journal of Systems and Control Engineering. 2020: 0959651819901034.",
@@ -39,8 +42,11 @@
          "Pan T H, Li S, Li N. Optimal bandwidth design for lazy learning via particle swarm optimization[J]. Intelligent Automation & Soft Computing, 2009, 15(1): 1-11.(SCI)",
          "Zhao M, Li N, Li S Y. Min-max model predictive control for constrained nonlinear systems via multiple LPV embeddings[J]. Science in China Series F: Information Sciences, 2009, 52(7): 1129-1135.(SCI)",
          "Min XU, Ning LI, Shaoyuan LI. A wide-range operating fuzzy control algorithm via receding horizon optimization, Journal of Intelligent and Fuzzy Systems, v 17, n 5, 2006, p 493-501, (SCI/EI 065110319505)",
+         "Z. Chen, L. Yu, N. Li. Reinforcement Learning-Based Distributed Optimization Algorithm for A Novel Cooperative Optimal Control of Multi-agents[J]. IEEE Transactions on Control of Network Systems.(Submitted).",
+         "Z. Chen, N. Li. Optimal Control-Based Distributed Reinforcement Learning Framework for A Class of Non-convex Objective Functionals of Multi-Agent Network[J]. IEEE-CAA Journal of Automatica Sinica. (Submitted).",
+         "Liying Yu, Dewen Li, and Ning Li, Member, IEEE. Offline economic dispatch for multi-area power system via hierarchical reinforcement learning. IEEE Transactions on Power Systems.(Submitted)",
          "Mi Yan, Ning Li. Borderline-Margin Loss based Deep Metric Learning Framework for Imbalanced Data. Applied Intelligence. (Submitted)",
-         "Na Jiang, Mi Yan, Ning Li. A Representation Learning Model for the Wind Turbine System PHM using Multivariate Time Series. IEEE/ASME Transactions on Mechatronics. (Submitted)",
+         "Mi Yan, Na Jiang, Ning Li. A Weighted Representation Learning based Feature Extraction Model for Multivariate Time Series Data in the Wind Turbine PHM System. IEEE Sensors Journal. (Submitted)",
          "Z. Chen, W Xue, N. Li and F. L. Lewis. Two-loop Reinforcement Learning Algorithm for Finite-HorizonOptimal Control of Continuous-Time Affine Nonlinear Systems[J]. International Journal of Robust and Nonlinear Control. (Submitted)",
          "Z. Chen, W Xue, N. Li, Bosen Lian and F. L. Lewis. A Novel Z-Function Based Completely Model-Free Reinforcement Learning Method to Finite Horizon Zero-Sum Game of Nonlinear System[J]. Nonlinear Dynamics. (Submitted)",
          "Z. Chen, L. Yu and N. Li. Reinforcement Learning-Based Distributed Optimization Algorithm for A Novel Cooperative Optimal Control of Multi-agents[J]. IEEE Transactions on Control of Network Systems. (Submitted)",
@@ -71,6 +77,7 @@
     {
       "category": "Conference Papers",
       "items": [ 
+         "Yuxiao Yang, Ning Li, Multi-stage Knowledge Enhancement for Ultra-fine-grained Entity Typing, 2021. International Symposium on Autonomous Systems.",
          "JIANG N, Ning Li. Wind turbine frequent principal fault detection based on a self-attentive LSTM encoder-decoder model[C]. 2020 39th Chinese Control Conference (CCC). IEEE",
          "Yiming Bian, Ning Li. Estimating remaining useful life for lithium-ion batteries using kalman filter banks. IEEE International Conference on Prognostics and Health Management, 2020",
          "Liying Yu, Ning Li. A reinforcement learning algorithm based on neural network for economic dispatch. Chinese Control Conference (CCC), 2020",
@@ -125,7 +132,7 @@
          "Li Q, Li N, Li S. An optimal point-wise control method for parabolic distributed parameter systems[C]//Control Automation Robotics & Vision (ICARCV), 2010 11th International Conference on. IEEE, 2010: 1478-1482.(SCI/EI)",
          "Wang M, Li N, Li S. Type-2 TS fuzzy modeling for the dynamic systems with measurement noise[C]//Fuzzy Systems, 2008. FUZZ-IEEE 2008.(IEEE World Congress on Computational Intelligence). IEEE International Conference on. IEEE, 2008: 443-448. ",
          "Feng Chao, Li Ning, Li Shaoyuan. Learning Algorithms of Growing Sparse Neural Networks. International Conference on Modelling, Identification and Control, June 28-July 2, 2008(EI) ",
-         
+         "Wang Ruogu, Li Ning. A novel feature enhancement module for small object detection. 2022 IEEE International Conference on Industrial Technology.",
          "卞一鸣, 庄玲华, 李柠. 车载锂电池生热模型建模与分析[A]. 中国自动化学会过程控制专业委员会.第30届中国过程控制会议（CPCC 2019）",
          "胡祥志，庄玲华，李柠. BP-PID 算法在电动汽车空调温度控制中的应用.CPCC2019",
          "严蜜, 李柠, 甘中学. 基于非监督特征深度学习的手写数字识别.CPCC2018",
@@ -137,6 +144,7 @@
     {
       "category": "Patent & Software Copyright",
       "items": [
+         "（专利）叶楠，李柠。一种室内场景下的目标驱动视觉语义导航方法。申请时间：2021.03.15",
          "（专利）康志恒，王若谷，李柠。3D目标检测方法、系统、介质及终端。申请时间：2020.12.17，公开号：CN 112613378 A",
          "（专利）康志恒，李柠。三维数据的处理方法、系统及设备。申请时间：2019.08.29，公开号：CN110516751A",
          "（专利）徐金玉，李柠。一种风功率短期多步预测方法及装置。申请时间：2019.08.08，公开号：CN 110378541 A",

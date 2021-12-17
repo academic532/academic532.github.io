@@ -4,6 +4,8 @@
     {
       "category": "Journal Papers",
       "items": [
+         "Qinqin Fan, Bin Cao, Ning Li. Balancing broad and deep searches in evolutionary computation via a parallel zoning search. Evolutionary Intelligence, 2021. doi.org/10.1007/s12065-021-00572-3.",
+         "Qinqin Fan, Yilian Zhang, Ning Li. An auto-selection strategy of multi-objective evolutionary algorithms based on performance-indicator and its application. IEEE Transactions on Automation Science and Engineering. 2021.",
          "Z. Chen, W. Xue, N. Li, B. Lian, and F. L. Lewis, A Novel Z-Function-Based Completely Model-Free Reinforcement Learning Method to Finite-Horizon Zero-Sum Game of Nonlinear System[J]. Nonlinear Dynamics. DOI:10.1007/s11071-021-07049-z.",
          "Z. Chen, W. Xue, N. Li, and F. L. Lewis, Two-loop Reinforcement Learning Algorithm for Finite-horizon Optimal Control of Continuous-Time Affine Nonlinear Systems[J]. International Journal of Robust and Nonlinear Control, 2021. DOI:10.1002/rnc.5826.",
          "Wang J, Zhang J, Jiang N, Song N, Xin J, Li N. Online health assessment and fault prediction for wind turbine generator. Proceedings of the Institution of Mechanical Engineers, Part I: Journal of Systems and Control Engineering. November 2021. doi:10.1177/09596518211056165",
@@ -42,8 +44,9 @@
          "Pan T H, Li S, Li N. Optimal bandwidth design for lazy learning via particle swarm optimization[J]. Intelligent Automation & Soft Computing, 2009, 15(1): 1-11.(SCI)",
          "Zhao M, Li N, Li S Y. Min-max model predictive control for constrained nonlinear systems via multiple LPV embeddings[J]. Science in China Series F: Information Sciences, 2009, 52(7): 1129-1135.(SCI)",
          "Min XU, Ning LI, Shaoyuan LI. A wide-range operating fuzzy control algorithm via receding horizon optimization, Journal of Intelligent and Fuzzy Systems, v 17, n 5, 2006, p 493-501, (SCI/EI 065110319505)",
-         "Z. Chen, L. Yu, N. Li. Reinforcement Learning-Based Distributed Optimization Algorithm for A Novel Cooperative Optimal Control of Multi-agents[J]. IEEE Transactions on Control of Network Systems.(Submitted).",
-         "Z. Chen, N. Li. Optimal Control-Based Distributed Reinforcement Learning Framework for A Class of Non-convex Objective Functionals of Multi-Agent Network[J]. IEEE-CAA Journal of Automatica Sinica. (Submitted).",
+         "Qinqin Fan, Min Jiang, Wentao Huang, Qingchao Jiang, and Ning Li. Considering Spatiotemporal Population Diversity in Dynamic Multi-objective Optimization. IEEE Transactions on Automation Science and Engineering,(Submitted)",
+         "Z. Chen, L. Yu, N. Li. Reinforcement Learning-Based Distributed Optimization Algorithm for A Novel Cooperative Optimal Control of Multi-agents[J]. IEEE Transactions on Control of Network Systems.(Submitted)",
+         "Z. Chen, N. Li. Optimal Control-Based Distributed Reinforcement Learning Framework for A Class of Non-convex Objective Functionals of Multi-Agent Network[J]. IEEE-CAA Journal of Automatica Sinica. (Submitted)",
          "Liying Yu, Dewen Li, and Ning Li, Member, IEEE. Offline economic dispatch for multi-area power system via hierarchical reinforcement learning. IEEE Transactions on Power Systems.(Submitted)",
          "Mi Yan, Ning Li. Borderline-Margin Loss based Deep Metric Learning Framework for Imbalanced Data. Applied Intelligence. (Submitted)",
          "Mi Yan, Na Jiang, Ning Li. A Weighted Representation Learning based Feature Extraction Model for Multivariate Time Series Data in the Wind Turbine PHM System. IEEE Sensors Journal. (Submitted)", 
@@ -74,6 +77,7 @@
     {
       "category": "Conference Papers",
       "items": [ 
+         "Qinqin Fan, Yihao Wang, Okan K. Ersoy, Ning Li, Zhenzhong Chu. Dynamic Multi-objective Optimization via Sliding Time Window and Parallel Computing[C]//International Conference in Swarm Intelligence. Springer, Cham, 2021.",
          "Yuxiao Yang, Ning Li, Multi-stage Knowledge Enhancement for Ultra-fine-grained Entity Typing, 2021. International Symposium on Autonomous Systems.",
          "JIANG N, Ning Li. Wind turbine frequent principal fault detection based on a self-attentive LSTM encoder-decoder model[C]. 2020 39th Chinese Control Conference (CCC). IEEE",
          "Yiming Bian, Ning Li. Estimating remaining useful life for lithium-ion batteries using kalman filter banks. IEEE International Conference on Prognostics and Health Management, 2020",

@@ -48,6 +48,13 @@
           "misc": {
             "Research": "Reinforcement Learning, Deep Learning, Optimization"
           }
+        },
+        {
+          "name": "Yang Zhang（张洋）",
+          "avatar": "zhangyang.jpeg",
+          "misc": {
+            "Research": "Intelligent Decision-making"
+          }
         }
       ]
     },
@@ -73,6 +80,27 @@
           "avatar": "yangyuxiao.jpeg",
           "misc": {
             "Research": "Natural Language Processing and Knowledge Graph"
+          }
+        },
+        {
+          "name": "Yang Yang（杨洋）",
+          "avatar": "yangyang.jpeg",
+          "misc": {
+            "Research": "Fault diagnosis and prediction of residual life of bearing"
+          }
+        },
+        {
+          "name": "Yinqiao Qi（祁殷俏）",
+          "avatar": "qiyinqiao.jpeg",
+          "misc": {
+            "Research": "knowledge enhanced document retrieval"
+          }
+        },
+        {
+          "name": "Zhi Li（李智）",
+          "avatar": "lizhi.jpeg",
+          "misc": {
+            "Research": "Deep Reinforcement Learning;Mobile Robot"
           }
         }
       ]

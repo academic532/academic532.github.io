@@ -55,6 +55,13 @@
           "misc": {
             "Research": "Intelligent Decision-making"
           }
+        },
+        {
+          "name": "Simin Huo（霍思敏）",
+          "avatar": "huosimin.jpeg",
+          "misc": {
+            "Research": "Machine learning & Image processing"
+          }
         }
       ]
     },

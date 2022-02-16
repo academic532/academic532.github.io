@@ -54,7 +54,7 @@ gem install github-pages
 cinst git -y
 ```
 
-完成安装。安装完成后在开始菜单中能够找到 Git Bash 程序。阅读 [Git版本管理](/resources/dev/getstarted/git.html) 一节以了解 Git 的基础用法。
+完成安装。安装完成后在开始菜单中能够找到 Git Bash 程序。阅读 [Git版本管理](https://github.com/academic532/academic532.github.io/blob/dev/resources/dev/src/practice/git.md) 一节以了解 Git 的基础用法。
 
 ### 测试安装
 

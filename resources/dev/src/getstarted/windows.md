@@ -58,7 +58,7 @@ cinst git -y
 
 ### 测试安装
 
-若已阅读了 [Git版本管理](/resources/dev/practice/git.html) 一节，可使用 Git 从 Github 拷贝网站代码到本地。
+若已阅读了 [Git版本管理](https://github.com/academic532/academic532.github.io/blob/dev/resources/dev/src/practice/git.md) 一节，可使用 Git 从 Github 拷贝网站代码到本地。
 
 启动 Git Bash，输入
 

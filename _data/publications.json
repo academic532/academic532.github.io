@@ -4,6 +4,7 @@
     {
       "category": "Journal Papers",
       "items": [
+         "Z. Chen and  N. Li,  “An optimal control-based distributed reinforcement learning framework for a class of non-convex objective functionals of the multi-agent network,” IEEE/CAA J. Autom. Sinica., 2022.",
          "Qinqin Fan, Bin Cao, Ning Li. Balancing broad and deep searches in evolutionary computation via a parallel zoning search. Evolutionary Intelligence, 2021. doi.org/10.1007/s12065-021-00572-3.",
          "Qinqin Fan, Yilian Zhang, Ning Li. An auto-selection strategy of multi-objective evolutionary algorithms based on performance-indicator and its application. IEEE Transactions on Automation Science and Engineering. 2021.",
          "Z. Chen, W. Xue, N. Li, B. Lian, and F. L. Lewis, A Novel Z-Function-Based Completely Model-Free Reinforcement Learning Method to Finite-Horizon Zero-Sum Game of Nonlinear System[J]. Nonlinear Dynamics. DOI:10.1007/s11071-021-07049-z.",

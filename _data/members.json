@@ -44,9 +44,9 @@
         },
         {
           "name": "Junda Wang（王俊达）",
-          "avatar": "nophoto.png",
+          "avatar": "wangjunda.jpg",
           "misc": {
-            "Research": "undetermined"
+            "Research": "Fault Diagnostic, Deep Learning, Randomized Neural Vets"
           }
         },
         {
@@ -91,16 +91,16 @@
         },
         {
           "name": "Jinghao Zhang（张竞昊）",
-          "avatar": "nophoto.png",
+          "avatar": "zhangjinghao.jpg",
           "misc": {
-            "Research": "Path planning based on swarm intelligence"
+            "Research": "Path Planning based on Swarm Intelligence"
           }
         },
         {
           "name": "Qinwen Wang（王钦文）",
-          "avatar": "nophoto.png",
+          "avatar": "wangqinwen.jpg",
           "misc": {
-            "Research": "undetermined"
+            "Research": "Deep Learning & Fault Diagnosis"
           }
         }
       ]

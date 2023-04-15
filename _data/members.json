@@ -106,6 +106,7 @@
       ]
     },
     {
+    {
       "category": "Alumni",
       "items": [
         {
@@ -150,25 +151,6 @@
             "Research": "knowledge enhanced document retrieval"
           }
         },
-        {
-          "name": "Zhi Li（李智）",
-          "avatar": "lizhi.jpeg",
-          "misc": {
-            "Research": "Deep Reinforcement Learning;Mobile Robot"
-          }
-        },
-        {
-          "name": "Jinghao Zhang（张竞昊）",
-          "avatar": "nophoto.png",
-          "misc": {
-            "Research": "Image processing"
-          }
-        }
-      ]
-    },
-    {
-      "category": "Alumni",
-      "items": [
         {
           "name": "Na Jiang（姜娜）",
           "avatar": "jiangna.png",

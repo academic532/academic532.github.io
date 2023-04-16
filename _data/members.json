@@ -65,16 +65,16 @@
         },
         {
           "name": "Shengjia Chu（褚生甲）",
-          "avatar": "nophoto.png",
+          "avatar": "chushengjia.jpg",
           "misc": {
-            "Research": "undetermined"
+            "Research": "Nonlinear control, adaptive control, game theory, intelligent marine vehicle"
           }
         },
         {
           "name": "Juanru Zhao（赵涓如）",
-          "avatar": "nophoto.png",
+          "avatar": "zhaojuanru.jpg",
           "misc": {
-            "Research": "undetermined"
+            "Research": "Fault diagnosis & Few-Shot Learning"
           }
         }
       ]
@@ -93,7 +93,7 @@
           "name": "Jinghao Zhang（张竞昊）",
           "avatar": "zhangjinghao.jpg",
           "misc": {
-            "Research": "Path Planning & Swarm Intelligence"
+            "Research": "Path Plan & Swarm Intelligence"
           }
         },
         {

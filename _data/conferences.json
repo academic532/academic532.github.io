@@ -2,6 +2,18 @@
   "usage": "index of conference submission ecntries",
   "entry": [
     {
+      "name": "IROS 2023(2023 IEEE/RSJ International Conference on Intelligent Robots and Systems)",
+      "link": "https://ieee-iros.org/"
+    },
+    {
+      "name": "RCAR 2023(2023 IEEE International Conference on Real-time Computing and Robotics)",
+      "link": "https://ieeexplore.ieee.org/xpl/conhome/10249208/proceeding"
+    },
+    {
+      "name": "RCAR 2022(2022 IEEE International Conference on Real-time Computing and Robotics)",
+      "link": "https://ieeexplore.ieee.org/xpl/conhome/9872150/proceeding"
+    },
+    {
       "name": "IFAC 2020(The 21th World Congress of the International Federation of Automatic Control)",
       "link": "http://www.ifac2020.org/"
     },

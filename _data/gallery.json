@@ -2,6 +2,15 @@
   "usage": "index file of gallery page",
   "entry": [
     {
+      "place": "Shanghai - 2024 New Year Celebration",
+      "date": "2024-1-4",
+      "folder": "2024newyear",
+      "pics": [
+        "2024newyear1.jpg",
+        "2024newyear2.jpg",
+      ]
+    },
+    {
       "place": "Xiapu, Fujian - 2023 Spring outgoing",
       "date": "2023-4-8 ~ 2023-4-10",
       "folder": "2023springout",

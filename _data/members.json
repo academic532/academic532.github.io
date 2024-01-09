@@ -22,13 +22,6 @@
       "category": "Ph.D Students",
       "items": [
         {
-          "name": "Mi Yan（严蜜）",
-          "avatar": "yanmi.png",
-          "misc": {
-            "Research": "Metric learning & Machine learning"
-          }
-        },
-        {
           "name": "Liying Yu（于丽英）",
           "avatar": "yuliying.png",
           "misc": {
@@ -108,6 +101,13 @@
     {
       "category": "Alumni",
       "items": [
+        {
+          "name": "Mi Yan（严蜜）",
+          "avatar": "yanmi.png",
+          "misc": {
+            "Research": "Metric learning & Machine learning"
+          }
+        },
         {
           "name": "Zhe Chen（陈哲）",
           "avatar": "chenzhe.png",

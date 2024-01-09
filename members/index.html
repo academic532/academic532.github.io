@@ -58,7 +58,9 @@ title: Members
   padding: 10px 15px;
 }
 .infotext {
-  padding: 0 0;
+  padding-left: 15px;
+  margin-left: 15px;
+  font-size: 1.5em;
 }
 .list-group .infoitem {
   padding: 3px 0;
@@ -72,7 +74,7 @@ h3 {
 
   .img-responsive {
     /* 让图片响应式，即根据父元素的宽度自动调整大小 */
-    max-width: 100%; /* 限制图片的最大宽度为父元素的100% */
+    max-width: 25%; /* 限制图片的最大宽度为父元素的100% */
     height: auto;    /* 保持图片的原始纵横比例 */
   }
 
@@ -81,6 +83,10 @@ h3 {
   .col-xs-7 img,
   .col-md-9 img {
     /* 限制图片在特定列中的宽度 */
-    width: 100%; /* 限制图片宽度为列的100% */
+    width: 25%; /* 限制图片宽度为列的100% */
   }
+  .list-group .list-group-item {
+  display: flex;
+  align-items: center;
+}
 </style>

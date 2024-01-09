@@ -66,4 +66,21 @@ title: Members
 h3 {
   margin:0 0;
 }
+    .img-rounded {
+    /* CSS圆角边框样式 */
+  }
+
+  .img-responsive {
+    /* 让图片响应式，即根据父元素的宽度自动调整大小 */
+    max-width: 100%; /* 限制图片的最大宽度为父元素的100% */
+    height: auto;    /* 保持图片的原始纵横比例 */
+  }
+
+  .col-xs-5 img,
+  .col-md-3 img,
+  .col-xs-7 img,
+  .col-md-9 img {
+    /* 限制图片在特定列中的宽度 */
+    width: 100%; /* 限制图片宽度为列的100% */
+  }
 </style>

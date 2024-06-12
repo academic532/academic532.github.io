@@ -4,6 +4,11 @@
     {
       "category": "Journal Papers",
       "items": [
+         "Wang J, Yang Y, Li N. Randomization-based neural networks for image-based wind turbine fault diagnosis[J]. Engineering Applications of Artificial Intelligence, 2023, 121: 106028.",
+         "Yu L, Li D, Li N. Offline economic dispatch for multi-area power system via hierarchical reinforcement learning[J]. International Journal of Electrical Power & Energy Systems, 2023, 152: 109195.",
+         "Xin J, Yu L, Wang J, et al. A diversity-based parallel particle swarm optimization for nonconvex economic dispatch problem[J]. Transactions of the Institute of Measurement and Control, 2023, 45(3): 452-465.",
+         "Yu L, Wang P, Chen Z, et al. Finding Nash equilibrium based on reinforcement learning for bidding strategy and distributed algorithm for ISO in imperfect electricity market[J]. Applied Energy, 2023, 350: 121704.",
+         "Yu L, Wang P, Zhang Y, et al. A reinforcement-probability Bayesian approach for strategic bidding and market clearing for renewable energy sources with uncertainty[J]. Journal of Cleaner Production, 2023, 429: 139403.",
          "Yan M, Hui S C, Li N. DML-PL: Deep Metric Learning Based Pseudo-Labeling Framework for Class Imbalanced Semi-Supervised Learning[J]. Information Sciences, 2023, 626: 641-657.",
          "Yan M, Li N. Borderline-margin loss based deep metric learning framework for imbalanced data[J]. Applied Intelligence, 2023, 53(2): 1487-1504.",
          "Yan M, Jiang N, Li N. A Weighted Representation Learning Based Feature Extraction Model for Multivariate Time Series Data in the Wind Turbine PHM System[J]. IEEE Sensors Journal, 2022, 22(9): 8715-8727.",

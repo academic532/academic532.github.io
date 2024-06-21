@@ -2,6 +2,14 @@
   "usage": "index file of gallery page",
   "entry": [
     {
+      "place": "Shanghai - 2024 Spring outgoing",
+      "date": "2024-4-21",
+      "folder": "2024springout",
+      "pics": [
+        "2024spring.jpg"
+      ]
+    },
+    {
       "place": "Shanghai - 2024 New Year Celebration",
       "date": "2024-1-4",
       "folder": "2024newyear",

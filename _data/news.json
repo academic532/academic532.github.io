@@ -3,31 +3,53 @@
   "entry": [
     {
       "name": "博士后招聘启事",
-      "link": "https://academic532.github.io/research/",
+      "link": "https://academic532.github.io/research/"
     },
     {
-      "name": "First Prize of Industrial Internet Algorithm Competition in WAIC2020",
-      "link": "https://mp.weixin.qq.com/s/wkmaszu948zmP8Nz3D2Krw"
-    }, 
-    {
-      "name": "One of Zhangjing's Paper is included in SCI"
+      "name": "Chu Shengjia's Paper is accepted by IEEE Transactions on Intelligent Transportation Systems"
     },
     {
-      "name": "One of Lidewen's Paper is included in SCI"
+      "name": "Yu Liying's Paper is published in Journal of cleaner production",
+      "link": "https://doi.org/10.1016/j.jclepro.2023.139403"
     },
     {
-      "name": "One of Tao Xiangyuan's Paper is classified as highly cited paper of ESI"
+      "name": "Yu Liying's Paper is published in Applied Energy",
+      "link": "https://doi.org/10.1016/j.apenergy.2023.121704"
     },
     {
-      "name": "Wang Zhanhao got the 2017 'SJTU President Award' ",
-      "link": "https://automation.sjtu.edu.cn/show/549"
+      "name": "Yan Mi's Paper is accepted by Information Sciences",
+      "link": "https://doi.org/10.1016/j.ins.2023.01.074"
     },
     {
-      "name": "Our research, as a part, won the First Prize of 2016 CAA Natural Science Award",
-      "link": "https://automation.sjtu.edu.cn/show/586"
+      "name": "Wang Junda's Paper is accepted by Engineering Applications of Artificial Intelligence",
     },
     {
-      "name": "Li Huike's Paper is awarded Student's Excellent Paper Nomination in the 27th CPCC"
+      "name": "Yu Liying's Paper is published in International Journal of Electrical Power and Energy Systems",
+      "link": "https://doi.org/10.1016/j.ijepes.2023.109195"
     }
   ]
 }
+//    {
+//      "name": "First Prize of Industrial Internet Algorithm Competition in WAIC2020",
+//      "link": "https://mp.weixin.qq.com/s/wkmaszu948zmP8Nz3D2Krw"
+//    },
+//    {
+//      "name": "One of Zhangjing's Paper is included in SCI"
+//    },
+//    {
+//      "name": "One of Lidewen's Paper is included in SCI"
+//    },
+//    {
+//      "name": "One of Tao Xiangyuan's Paper is classified as highly cited paper of ESI"
+//    },
+//    {
+//      "name": "Wang Zhanhao got the 2017 'SJTU President Award' ",
+//      "link": "https://automation.sjtu.edu.cn/show/549"
+//    },
+//    {
+//      "name": "Our research, as a part, won the First Prize of 2016 CAA Natural Science Award",
+//      "link": "https://automation.sjtu.edu.cn/show/586"
+//    },
+//    {
+//      "name": "Li Huike's Paper is awarded Student's Excellent Paper Nomination in the 27th CPCC"
+//    }

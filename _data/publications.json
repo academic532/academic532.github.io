@@ -4,6 +4,14 @@
     {
       "category": "Journal Papers",
       "items": [
+         "Zhao J, Li N. DFDAN: A Dual-branch Feature Decoupling-driven Auxiliary Network for Enhanced Fault Diagnosis Safety[J]. IEEE Transactions on Instrumentation and Measurement, 2024.",
+         "Zhao J, Li N, Wang P. Enhanced Security of Industrial Fault Diagnosis Systems With Synergy of Covert Attacks and Low-Overhead Defenses[J]. IEEE Transactions on Industrial Informatics, 2024.",
+         "Zhang Y, Wang P, Yu L, et al. Decoupled Volt/var Control with Safe Reinforcement Learning based on Approximate Bayesian Inference[J]. IEEE Transactions on Sustainable Energy, 2024.",
+         "Zhang Y, Wang P, Yu L, et al. Adaptive Tuning of Dynamic Matrix Control for Uncertain Industrial Systems With Deep Reinforcement Learning[J]. IEEE Transactions on Automation Science and Engineering, 2024.",
+         "Zhang Y, Wang P, Li N. Double-Loop-Optimization-Based Joint Parameter Tuning for Dynamic Matrix Control With Validation in Intelligent Cigarette Drying Process[J]. IEEE Transactions on Industrial Informatics, 2024.",
+         "Xin J, Kim J, Li Z, et al. Train a real-world local path planner in one hour via partially decoupled reinforcement learning and vectorized diversity[J]. Engineering Applications of Artificial Intelligence, 2025, 141: 109726.",
+         "Xin J, Li Z, Zhang Y, et al. Efficient real-time path planning with self-evolving particle swarm optimization in dynamic scenarios[J]. Unmanned Systems, 2024, 12(02): 215-226.",
+         "Xin J, Kim J, Chu S, et al. OkayPlan: Obstacle Kinematics Augmented Dynamic real-time path Planning via particle swarm optimization[J]. Ocean Engineering, 2024, 303: 117841.",
          "Wang J, Yang Y, Li N. Randomization-based neural networks for image-based wind turbine fault diagnosis[J]. Engineering Applications of Artificial Intelligence, 2023, 121: 106028.",
          "Yu L, Li D, Li N. Offline economic dispatch for multi-area power system via hierarchical reinforcement learning[J]. International Journal of Electrical Power & Energy Systems, 2023, 152: 109195.",
          "Xin J, Yu L, Wang J, et al. A diversity-based parallel particle swarm optimization for nonconvex economic dispatch problem[J]. Transactions of the Institute of Measurement and Control, 2023, 45(3): 452-465.",

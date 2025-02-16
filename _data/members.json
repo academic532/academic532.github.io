@@ -22,13 +22,6 @@
       "category": "Ph.D Students",
       "items": [
         {
-          "name": "Liying Yu（于丽英）",
-          "avatar": "yuliying.png",
-          "misc": {
-            "Research": "Large Scale Optimization & Evolutionary Computation"
-          }
-        },
-        {
           "name": "Jinghao Xin（辛靖豪）",
           "avatar": "xinjinghao.jpg",
           "misc": {
@@ -69,6 +62,20 @@
           "misc": {
             "Research": "Fault diagnosis & Few-Shot Learning"
           }
+        },
+        {
+          "name": "Qi Shi（石琦）",
+          "avatar": "shiqi.jpg",
+          "misc": {
+            "Research": "Combinatorial Optimization Problem & Deep Reinforcement Learning"
+          }
+        },
+        {
+          "name": "Hao Chen（陈昊）",
+          "avatar": "chenhao.jpg",
+          "misc": {
+            "Research": "Object Detection & Image Fusion"
+          }
         }
       ]
     },
@@ -94,7 +101,7 @@
       "name": "Zhirui Zhao（赵治睿）",
       "avatar": "zhaozhirui.jpg",
       "misc": {
-        "Research": "Machine Learning & Fault Diagnosis"
+        "Research": "Deep Learning & Battery Remaining Useful Life"
       }
     },
     {
@@ -110,12 +117,40 @@
       "misc": {
         "Research": "Multidimensional Perception & Target Tracking"
       }
+    },
+    {
+      "name": "Zhichao Liang（梁智超）",
+      "avatar": "liangzhichao.jpg",
+      "misc": {
+        "Research": "Reinforcement Learning"
+      }
+    },
+    {
+      "name": "Zhengyang Shi（施正扬）",
+      "avatar": "shizhengyang.jpg",
+      "misc": {
+        "Research": "Deep Reinforcement Learning & Smart Grid"
+      }
+    },
+    {
+      "name": "Mingzhe Yang（杨明哲）",
+      "avatar": "yangmingzhe.jpg",
+      "misc": {
+        "Research": "Imitation learning"
+      }
     }
   ]
 },
     {
       "category": "Alumni",
       "items": [
+        {
+          "name": "Liying Yu（于丽英）",
+          "avatar": "yuliying.png",
+          "misc": {
+            "Research": "Large Scale Optimization & Evolutionary Computation"
+          }
+        },
         {
           "name": "Zhi Li（李智）",
           "avatar": "lizhi.jpeg",

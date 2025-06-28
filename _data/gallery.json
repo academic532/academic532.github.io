@@ -2,36 +2,11 @@
   "usage": "index file of gallery page",
   "entry": [
     {
-      "place": "Shanghai - 2025 New Year Celebration",
-      "date": "2025-1-8",
-      "folder": "2025newyear",
-      "pics": [
-        "2025newyear.jpg"
-      ]
-    },
-    {
       "place": "Shanghai - 2024 Autumn outgoing",
       "date": "2024-11-2",
       "folder": "2024autumnout",
       "pics": [
         "2024autumn.jpg"
-      ]
-    },
-    {
-      "place": "Shanghai - 2024 Spring outgoing",
-      "date": "2024-4-21",
-      "folder": "2024springout",
-      "pics": [
-        "2024spring.jpg"
-      ]
-    },
-    {
-      "place": "Shanghai - 2024 New Year Celebration",
-      "date": "2024-1-4",
-      "folder": "2024newyear",
-      "pics": [
-        "2024newyear1.jpg",
-        "2024newyear2.jpg",
       ]
     },
     {

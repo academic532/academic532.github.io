@@ -2,43 +2,43 @@
   "usage": "index of conference submission ecntries",
   "entry": [
     {
-      "name": "IROS 2024(2024 IEEE/RSJ International Conference on Intelligent Robots and Systems)",
-      "link": "https://iros2024-abudhabi.org/"
+      "name": "IROS 2025(2025 IEEE/RSJ International Conference on Intelligent Robots and Systems)",
+      "link": "https://www.iros25.org/"
     },
     {
-      "name": "RCAR 2024 (2024 IEEE International Conference on Real-time Computing and Robotics)",
-      "link": "http://www.ieee-rcar.org/index.html"
+      "name": "RCAR 2025 (2025 IEEE International Conference on Real-time Computing and Robotics)",
+      "link": "https://smartconf.jp/content/rcar2025/"
     },
     {
-      "name": "CDC 2024 (2024 Conference on Decision and Control)",
-      "link": "https://cdc2024.ieeecss.org/"
+      "name": "CDC 2025 (2025 Conference on Decision and Control)",
+      "link": "https://cdc2025.ieeecss.org/"
     },
     {
-      "name": "IEEE ACC 2024(2024 IEEE American Control Conference)",
-      "link": "https://acc2024.a2c2.org/"
+      "name": "IEEE ACC 2025(2025 IEEE American Control Conference)",
+      "link": "https://acc2025.a2c2.org/"
     },
     {
-      "name": "CCC 2024(The 43th Chinese Control Conference)",
-      "link": "https://ccc2024.kust.edu.cn/index.htm"
+      "name": "CCC 2025(The 44th Chinese Control Conference)",
+      "link": "https://ccc2025.cqu.edu.cn/en/Home.htm"
     },
     {
-      "name": "IJCAI 2024（2024 International Joint Conference on Artificial Intelligence）",
-      "link": "https://cdc2018.ieeecss.org/"
+      "name": "IJCAI 2025（2025 International Joint Conference on Artificial Intelligence）",
+      "link": "https://2025.ijcai.org/"
     },
     {
-      "name": "ICML 2024 （2024 International Conference on Machine Learning）",
-      "link": "http://acc2018.a2c2.org/"
+      "name": "ICML 2025 （2025 International Conference on Machine Learning）",
+      "link": "https://icml.cc/"
     },
     {
-      "name": "AAAI 2024 （2024 National Conference of the American Association for Artificial Intelligence）",
-      "link": "https://aaai.org/aaai-conference/"
+      "name": "AAAI 2025 （2025 National Conference of the American Association for Artificial Intelligence）",
+      "link": "https://aaai.org/conference/aaai/aaai-25/"
     },
     {
-      "name": "NeurIPS 2024 （2024 Neural Information Processing Systems）",
-      "link": "https://nips.cc/"
+      "name": "NeurIPS 2025 （2025 Neural Information Processing Systems）",
+      "link": "https://neurips.cc/"
     },
     {
-      "name": "CVPR 2024 （2024 IEEE Conference on Computer Vision and Pattern Recognition）",
+      "name": "CVPR 2025 （2025 IEEE Conference on Computer Vision and Pattern Recognition）",
       "link": "https://cvpr.thecvf.com/"
     }
   ]

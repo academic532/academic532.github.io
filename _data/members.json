@@ -84,20 +84,6 @@
   "category": "Master Students",
   "items": [
     {
-      "name": "Qinwen Wang（王钦文）",
-      "avatar": "wangqinwen.jpg",
-      "misc": {
-        "Research": "Deep Learning & Fault Diagnosis"
-      }
-    },
-    {
-      "name": "Shunfeng Li（黎顺锋）",
-      "avatar": "lishunfeng.jpg",
-      "misc": {
-        "Research": "Deep Reinforcement Learning & Smart Grid"
-      }
-    },
-    {
       "name": "Zhirui Zhao（赵治睿）",
       "avatar": "zhaozhirui.jpg",
       "misc": {
@@ -138,12 +124,33 @@
       "misc": {
         "Research": "Imitation learning"
       }
+    },
+    {
+      "name": "Wenshu Yuan（袁文舒）",
+      "avatar": "yangmingzhe.jpg",
+      "misc": {
+        "Research": "LLM"
+      }
     }
   ]
 },
     {
       "category": "Alumni",
       "items": [
+        {
+          "name": "Qinwen Wang（王钦文）",
+          "avatar": "wangqinwen.jpg",
+          "misc": {
+            "Research": "Deep Learning & Fault Diagnosis"
+          }
+        },
+        {
+          "name": "Shunfeng Li（黎顺锋）",
+          "avatar": "lishunfeng.jpg",
+          "misc": {
+            "Research": "Deep Reinforcement Learning & Smart Grid"
+          }
+        },
         {
           "name": "Liying Yu（于丽英）",
           "avatar": "yuliying.png",

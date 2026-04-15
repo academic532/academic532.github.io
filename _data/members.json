@@ -22,13 +22,6 @@
       "category": "Ph.D Students",
       "items": [
         {
-          "name": "Jinghao Xin（辛靖豪）",
-          "avatar": "xinjinghao.jpg",
-          "misc": {
-            "Research": "Reinforcement Learning, Deep Learning, Optimization"
-          }
-        },
-        {
           "name": "Junda Wang（王俊达）",
           "avatar": "wangjunda.jpg",
           "misc": {
@@ -47,13 +40,6 @@
           "avatar": "huosimin.png",
           "misc": {
             "Research": "Machine learning & Image processing"
-          }
-        },
-        {
-          "name": "Shengjia Chu（褚生甲）",
-          "avatar": "chushengjia.jpg",
-          "misc": {
-            "Research": "Nonlinear control, adaptive control, game theory, intelligent marine vehicle"
           }
         },
         {
@@ -76,6 +62,13 @@
           "misc": {
             "Research": "Object Detection & Image Fusion"
           }
+        },
+        {
+          "name": "Jiachen Feng（冯嘉辰）",
+          "avatar": "fengjiachen.jpg",
+          "misc": {
+            "Research": "CV & Adversarial Attacks and Defense"
+          }
         }
       ]
     },
@@ -83,13 +76,6 @@
 {
   "category": "Master Students",
   "items": [
-    {
-      "name": "Zhirui Zhao（赵治睿）",
-      "avatar": "zhaozhirui.jpg",
-      "misc": {
-        "Research": "Deep Learning & Battery Remaining Useful Life"
-      }
-    },
     {
       "name": "Fei Mo（莫非）",
       "avatar": "mofei.jpg",
@@ -129,7 +115,7 @@
       "name": "Wenshu Yuan（袁文舒）",
       "avatar": "yuanwenshu.jpg",
       "misc": {
-        "Research": "LLM"
+        "Research": "LLM/Agent Plan"
       }
     }
   ]
@@ -137,6 +123,27 @@
     {
       "category": "Alumni",
       "items": [
+        {
+          "name": "Shengjia Chu（褚生甲）",
+          "avatar": "chushengjia.jpg",
+          "misc": {
+            "Research": "Nonlinear control, adaptive control, game theory, intelligent marine vehicle"
+          }
+        },
+        {
+          "name": "Zhirui Zhao（赵治睿）",
+          "avatar": "zhaozhirui.jpg",
+          "misc": {
+            "Research": "Deep Learning & Battery Remaining Useful Life"
+          }
+        },
+        {
+          "name": "Jinghao Xin（辛靖豪）",
+          "avatar": "xinjinghao.jpg",
+          "misc": {
+            "Research": "Reinforcement Learning, Deep Learning, Optimization"
+          }
+        },
         {
           "name": "Qinwen Wang（王钦文）",
           "avatar": "wangqinwen.jpg",
